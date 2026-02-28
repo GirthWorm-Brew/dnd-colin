@@ -57,7 +57,7 @@ export interface Creature {
 
   special_abilities?: NamedBlock[] | null;
 
-  spell_list?: string[] | null; // tighten later when you inspect actual shape
+  spell_list?: string[] | null;
 
   page_no?: number | null;
   environments?: string[] | null;
@@ -76,7 +76,7 @@ export interface Speed {
   walk?: number;
   swim?: number;
   fly?: number;
-  burrow?: number;
+  crawl?: number;
   climb?: number;
 }
 
