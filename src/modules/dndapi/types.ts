@@ -1,3 +1,5 @@
+// Open5e generated from Open5e openapi yaml
+
 import type { components, operations } from "../../generated/open5e";
 
 export type Open5eRoot = Record<string, string>;
