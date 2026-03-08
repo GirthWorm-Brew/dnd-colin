@@ -76,8 +76,9 @@ export interface Speed {
   walk?: number;
   swim?: number;
   fly?: number;
-  crawl?: number;
+  burrow?: number;
   climb?: number;
+  hover?: boolean;
 }
 
 export type Skills = Record<string, number>;

@@ -5,7 +5,7 @@ import fs from "fs";
 import path from "path";
 import { Creature } from "./components/creatures/CreatureTypes";
 
-function testReadFile(file: string) {
+export function testReadFile(file: string) {
   const inputPath = path.join(process.cwd(), "data", "monsters", file);
   let res = fs.readFileSync(inputPath, "utf8");
   let json: Creature = JSON.parse(res);
@@ -13,5 +13,3 @@ function testReadFile(file: string) {
 
   console.log(creature);
 }
-
-testReadFile("stoneguard.json");
