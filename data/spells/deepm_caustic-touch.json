@@ -258,9 +258,7 @@
   "saving_throw_ability": "constitution",
   "attack_roll": true,
   "damage_roll": "1d8",
-  "damage_types": [
-    "acid"
-  ],
+  "damage_types": ["acid"],
   "duration": "instantaneous",
   "shape_type": null,
   "shape_size": null,

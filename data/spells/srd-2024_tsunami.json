@@ -53,9 +53,7 @@
   "saving_throw_ability": "strength",
   "attack_roll": false,
   "damage_roll": "6d10",
-  "damage_types": [
-    "bludgeoning"
-  ],
+  "damage_types": ["bludgeoning"],
   "duration": "6 round",
   "shape_type": null,
   "shape_size": null,

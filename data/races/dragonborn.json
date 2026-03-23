@@ -5,15 +5,11 @@
   "asi_desc": "**_Ability Score Increase._** Your Strength score increases by 2, and your Charisma score increases by 1.",
   "asi": [
     {
-      "attributes": [
-        "Strength"
-      ],
+      "attributes": ["Strength"],
       "value": 2
     },
     {
-      "attributes": [
-        "Charisma"
-      ],
+      "attributes": ["Charisma"],
       "value": 1
     }
   ],

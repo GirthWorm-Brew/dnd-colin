@@ -64,9 +64,7 @@
   ],
   "spell_list": [],
   "page_no": 378,
-  "environments": [
-    "Underwater"
-  ],
+  "environments": ["Underwater"],
   "img_main": null,
   "document__slug": "wotc-srd",
   "document__title": "5e Core Rules",

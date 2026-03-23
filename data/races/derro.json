@@ -5,9 +5,7 @@
   "asi_desc": "***Ability Score Increase.*** Your Dexterity score increases by 2.",
   "asi": [
     {
-      "attributes": [
-        "Dexterity"
-      ],
+      "attributes": ["Dexterity"],
       "value": 2
     }
   ],
@@ -29,9 +27,7 @@
       "desc": "You grew up firmly ensconced in the mad traditions of the derro, your mind touched by the raw majesty and power of your society's otherworldly deities. Your abilities in other areas have made you more than a typical derro, of course. But no matter how well-trained and skilled you get in other magical or martial arts, the voices of your gods forever reverberate in your ears, driving you forward to do great or terrible things.",
       "asi": [
         {
-          "attributes": [
-            "Charisma"
-          ],
+          "attributes": ["Charisma"],
           "value": 1
         }
       ],
@@ -47,9 +43,7 @@
       "desc": "Most derro go through the process of indoctrination into their society and come out of it with visions and delusion, paranoia and mania. You, on the other hand, were not affected as much mentally as you were physically. The connection to the dark deities of your people made you stronger and gave you a physical manifestation of their gift that other derro look upon with envy and awe.",
       "asi": [
         {
-          "attributes": [
-            "Strength"
-          ],
+          "attributes": ["Strength"],
           "value": 1
         }
       ],
@@ -65,9 +59,7 @@
       "desc": "Someone in your past failed to do their job of driving you to the brink of insanity. It might have been a doting parent that decided to buck tradition. It might have been a touched seer who had visions of your future without the connections to the mad gods your people serve. It might have been a whole outcast community of derro rebels who refused to serve the madness of your ancestors. Whatever happened in your past, you are quite sane—or at least quite sane for a derro.",
       "asi": [
         {
-          "attributes": [
-            "Wisdom"
-          ],
+          "attributes": ["Wisdom"],
           "value": 1
         }
       ],

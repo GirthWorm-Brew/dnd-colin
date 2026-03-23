@@ -5,21 +5,15 @@
   "asi_desc": "**_Ability Score Increase._** Your Charisma score increases by 2, and two other ability scores of your choice increase by 1.",
   "asi": [
     {
-      "attributes": [
-        "Charisma"
-      ],
+      "attributes": ["Charisma"],
       "value": 2
     },
     {
-      "attributes": [
-        "Other"
-      ],
+      "attributes": ["Other"],
       "value": 1
     },
     {
-      "attributes": [
-        "Other"
-      ],
+      "attributes": ["Other"],
       "value": 1
     }
   ],

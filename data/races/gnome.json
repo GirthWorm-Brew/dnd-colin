@@ -5,9 +5,7 @@
   "asi_desc": "**_Ability Score Increase._** Your Intelligence score increases by 2.",
   "asi": [
     {
-      "attributes": [
-        "Intelligence"
-      ],
+      "attributes": ["Intelligence"],
       "value": 2
     }
   ],
@@ -29,9 +27,7 @@
       "desc": "As a rock gnome, you have a natural inventiveness and hardiness beyond that of other gnomes.",
       "asi": [
         {
-          "attributes": [
-            "Constitution"
-          ],
+          "attributes": ["Constitution"],
           "value": 1
         }
       ],

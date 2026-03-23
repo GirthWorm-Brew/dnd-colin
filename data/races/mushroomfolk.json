@@ -5,9 +5,7 @@
   "asi_desc": "***Ability Score Increase.*** Your Wisdom score increases by 2.",
   "asi": [
     {
-      "attributes": [
-        "Wisdom"
-      ],
+      "attributes": ["Wisdom"],
       "value": 2
     }
   ],
@@ -29,9 +27,7 @@
       "desc": "You were one of the warriors and guardians of your clan, using your strength and acid spores to protect your clanmates and your territory.",
       "asi": [
         {
-          "attributes": [
-            "Strength"
-          ],
+          "attributes": ["Strength"],
           "value": 1
         }
       ],
@@ -47,9 +43,7 @@
       "desc": "A few special mushroomfolk grow to become shamans, generals, and other types of leaders. Your spores invite cooperation, peace, and healing among your allies. Others look to you for guidance and succor in the harsh underground environs.",
       "asi": [
         {
-          "attributes": [
-            "Charisma"
-          ],
+          "attributes": ["Charisma"],
           "value": 1
         }
       ],
@@ -65,9 +59,7 @@
       "desc": "Your specialty for your clan was acting as a scout and a wayfinder. Your abilities to avoid problems and locate new sources of food for your clan was instrumental in their survival, and your interactions with other clans helped keep your people alive and well.",
       "asi": [
         {
-          "attributes": [
-            "Dexterity"
-          ],
+          "attributes": ["Dexterity"],
           "value": 1
         }
       ],

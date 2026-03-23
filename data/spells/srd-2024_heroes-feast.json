@@ -63,9 +63,7 @@
   "saving_throw_ability": "",
   "attack_roll": false,
   "damage_roll": "2d10",
-  "damage_types": [
-    "poison"
-  ],
+  "damage_types": ["poison"],
   "duration": "instantaneous",
   "shape_type": "cube",
   "shape_size": 10,

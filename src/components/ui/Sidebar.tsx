@@ -1,14 +1,6 @@
-import {
-  Col,
-  Dropdown,
-  DropdownButton,
-  DropdownItem,
-  DropdownMenu,
-} from "react-bootstrap";
+import { Col, Dropdown, DropdownButton, DropdownItem, DropdownMenu } from "react-bootstrap";
 
-const sidebarItems: Array<string> = [
-  "Item1, Item2, Item3, Item4, Item5, Item6, Item7, Item8",
-];
+const sidebarItems: Array<string> = ["Item1, Item2, Item3, Item4, Item5, Item6, Item7, Item8"];
 const sidebarCharacters: Array<string> = [
   "Character, Character, Character, Character, Character, Character, Character, Character",
 ];
@@ -25,31 +17,10 @@ export default function Sidebar() {
           Library ◀
         </label>
         <aside className="sidebar sidebar-left">
-          <input
-            type="radio"
-            name="lib-tab"
-            id="lib-mon"
-            className="lib-state"
-            checked
-          />
-          <input
-            type="radio"
-            name="lib-tab"
-            id="lib-spell"
-            className="lib-state"
-          />
-          <input
-            type="radio"
-            name="lib-tab"
-            id="lib-item"
-            className="lib-state"
-          />
-          <input
-            type="radio"
-            name="lib-tab"
-            id="lib-char"
-            className="lib-state"
-          />
+          <input type="radio" name="lib-tab" id="lib-mon" className="lib-state" checked />
+          <input type="radio" name="lib-tab" id="lib-spell" className="lib-state" />
+          <input type="radio" name="lib-tab" id="lib-item" className="lib-state" />
+          <input type="radio" name="lib-tab" id="lib-char" className="lib-state" />
           <DropdownButton id="sidebar-dropdown-selection" title="Category">
             <DropdownMenu>
               <DropdownItem>armor</DropdownItem>

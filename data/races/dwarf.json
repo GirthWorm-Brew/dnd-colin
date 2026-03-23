@@ -5,9 +5,7 @@
   "asi_desc": "**_Ability Score Increase._** Your Constitution score increases by 2.",
   "asi": [
     {
-      "attributes": [
-        "Constitution"
-      ],
+      "attributes": ["Constitution"],
       "value": 2
     }
   ],
@@ -29,9 +27,7 @@
       "desc": "As a hill dwarf, you have keen senses, deep intuition, and remarkable resilience.",
       "asi": [
         {
-          "attributes": [
-            "Wisdom"
-          ],
+          "attributes": ["Wisdom"],
           "value": 1
         }
       ],

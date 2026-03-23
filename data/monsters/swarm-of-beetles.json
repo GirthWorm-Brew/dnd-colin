@@ -58,11 +58,7 @@
   ],
   "spell_list": [],
   "page_no": 391,
-  "environments": [
-    "Desert",
-    "Caves",
-    "Underdark"
-  ],
+  "environments": ["Desert", "Caves", "Underdark"],
   "img_main": null,
   "document__slug": "wotc-srd",
   "document__title": "5e Core Rules",

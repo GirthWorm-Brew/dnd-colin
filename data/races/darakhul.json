@@ -5,9 +5,7 @@
   "asi_desc": "***Ability Score Increase.*** Your Constitution score increases by 1.",
   "asi": [
     {
-      "attributes": [
-        "Constitution"
-      ],
+      "attributes": ["Constitution"],
       "value": 1
     }
   ],
@@ -29,9 +27,7 @@
       "desc": "Your darakhul character was a derro before transforming into a darakhul. For you, the quieting of the otherworldly voices did not bring peace and tranquility. The impulses simply became more focused, and the desire to feast on flesh overwhelmed other urges. The darkness is still there; it just has a new, clearer form.",
       "asi": [
         {
-          "attributes": [
-            "Charisma"
-          ],
+          "attributes": ["Charisma"],
           "value": 2
         }
       ],
@@ -47,9 +43,7 @@
       "desc": "Your darakhul character was a dragonborn before transforming into a darakhul. The dark power of undeath overwhelmed your elemental nature, replacing it with the foul energy and strength of the undead. Occasionally, your draconic heritage echoes a peal of raw power through your form, but it is quickly converted into necrotic waves.",
       "asi": [
         {
-          "attributes": [
-            "Strength"
-          ],
+          "attributes": ["Strength"],
           "value": 2
         }
       ],
@@ -65,9 +59,7 @@
       "desc": "Your darakhul character was a drow before transforming into a darakhul. Your place within the highly regimented drow society doesn't feel that much different from your new place in the darakhul empires. But an uncertainty buzzes in your mind, and a hunger gnaws at your gut. You are now what you once hated and feared. Does it feel right, or is it something you fight against?",
       "asi": [
         {
-          "attributes": [
-            "Intelligence"
-          ],
+          "attributes": ["Intelligence"],
           "value": 2
         }
       ],
@@ -83,9 +75,7 @@
       "desc": "Your darakhul character was a dwarf before transforming into a darakhul. The hum of the earth, the tranquility of the stone and the dust, drained from you as the darakhul fever overwhelmed your once-resilient body. The stone is still there, but its touch has gone from a welcome embrace to a cold grip of death. But it's all the same to you now. ",
       "asi": [
         {
-          "attributes": [
-            "Wisdom"
-          ],
+          "attributes": ["Wisdom"],
           "value": 2
         }
       ],
@@ -101,9 +91,7 @@
       "desc": "Your darakhul character was an elf or shadow fey (see *Midgard Heroes Handbook*) before transforming into a darakhul. The deathly power coursing through you reminds you of the lithe beauty and magic of your former body. If you just use your imagination, the blood tastes like wine once did. The smell of rotting flesh has the bouquet of wildflowers. The moss beneath the surface feels like the leaves of the forest.",
       "asi": [
         {
-          "attributes": [
-            "Dexterity"
-          ],
+          "attributes": ["Dexterity"],
           "value": 2
         }
       ],
@@ -119,9 +107,7 @@
       "desc": "Your darakhul character was a gnome before transforming into a darakhul. The spark of magic that drove you before your transformation still burns inside of you, but now it is a constant ache instead of a source of creation and inspiration. This ache is twisted by your hunger, making you hunger for magic itself. ",
       "asi": [
         {
-          "attributes": [
-            "Intelligence"
-          ],
+          "attributes": ["Intelligence"],
           "value": 2
         }
       ],
@@ -137,9 +123,7 @@
       "desc": "Your darakhul character was a halfling before transforming into a darakhul. Everything you loved as a halfling—food, drink, exploration, adventure— still drives you in your undead form; it is simply a more ghoulish form of those pleasures now: raw flesh instead of stew, warm blood instead of cold mead. You still want to explore the dark corners of the world, but now you seek something different. ",
       "asi": [
         {
-          "attributes": [
-            "Dexterity"
-          ],
+          "attributes": ["Dexterity"],
           "value": 2
         }
       ],
@@ -155,9 +139,7 @@
       "desc": "Your darakhul character was a human or half-elf before transforming into a darakhul. Where there was once light there is now darkness. Where there was once love there is now hunger. You know if the darkness and hunger become all-consuming, you are truly lost. But the powers of your new form are strangely comfortable. How much of your old self is still there, and what can this new form give you that your old one couldn't? ",
       "asi": [
         {
-          "attributes": [
-            "Any"
-          ],
+          "attributes": ["Any"],
           "value": 2
         }
       ],
@@ -173,9 +155,7 @@
       "desc": "Your darakhul character was a kobold before transforming into a darakhul. The dark, although it was often your home, generally held terrors that you needed to survive. Now you are the dark, and its pull on your soul is strong. You fight to keep a grip on the intellect and cunning that sustained you in your past life. Sometimes it is easy, but often the driving hunger inside you makes it hard to think as clearly as you once did.",
       "asi": [
         {
-          "attributes": [
-            "Intelligence"
-          ],
+          "attributes": ["Intelligence"],
           "value": 2
         }
       ],
@@ -191,9 +171,7 @@
       "desc": "Your darakhul character was a ravenfolk (see Midgard Heroes Handbook) before transforming into a darakhul. Your new form feels different. It is more powerful and less fidgety, and your beak has become razor sharp. There is still room for trickery, of course. But with your new life comes a disconnection from the All Father. Does this loss gnaw at you like your new hunger or do you feel freed from the destiny of your people?",
       "asi": [
         {
-          "attributes": [
-            "Dexterity"
-          ],
+          "attributes": ["Dexterity"],
           "value": 2
         }
       ],
@@ -209,9 +187,7 @@
       "desc": "Your darakhul character was a tiefling before transforming into a darakhul. You are no stranger to the pull of powerful forces raging through your blood. You have traded one dark pull for another, and this one seems much stronger. Is that a good feeling, or do you miss your old one?",
       "asi": [
         {
-          "attributes": [
-            "Charisma"
-          ],
+          "attributes": ["Charisma"],
           "value": 1
         }
       ],
@@ -227,9 +203,7 @@
       "desc": "Your darakhul character was a trollkin (see *Midgard Heroes Handbook*) before transforming into a darakhul. Others saw you as a monster because of your ancestry. You became inured to the fearful looks and hurried exits of those around you. If only they could see you now. Does your new state make you seek revenge on them, or are you able to maintain your self-control despite the new urges you feel?",
       "asi": [
         {
-          "attributes": [
-            "Strength"
-          ],
+          "attributes": ["Strength"],
           "value": 2
         }
       ],

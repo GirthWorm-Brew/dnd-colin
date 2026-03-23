@@ -144,10 +144,7 @@
   "saving_throw_ability": "dexterity",
   "attack_roll": true,
   "damage_roll": "1d10",
-  "damage_types": [
-    "piercing",
-    "cold"
-  ],
+  "damage_types": ["piercing", "cold"],
   "duration": "instantaneous",
   "shape_type": null,
   "shape_size": null,

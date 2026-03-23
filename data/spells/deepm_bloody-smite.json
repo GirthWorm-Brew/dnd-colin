@@ -79,9 +79,7 @@
   "saving_throw_ability": "constitution",
   "attack_roll": false,
   "damage_roll": "1d6",
-  "damage_types": [
-    "necrotic"
-  ],
+  "damage_types": ["necrotic"],
   "duration": "1 minute",
   "shape_type": null,
   "shape_size": null,

@@ -229,9 +229,7 @@
   "saving_throw_ability": "",
   "attack_roll": true,
   "damage_roll": "1d8",
-  "damage_types": [
-    "lightning"
-  ],
+  "damage_types": ["lightning"],
   "duration": "instantaneous",
   "shape_type": null,
   "shape_size": null,

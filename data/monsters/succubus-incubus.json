@@ -83,10 +83,7 @@
   ],
   "spell_list": [],
   "page_no": 349,
-  "environments": [
-    "Any",
-    "Hell"
-  ],
+  "environments": ["Any", "Hell"],
   "img_main": null,
   "document__slug": "wotc-srd",
   "document__title": "5e Core Rules",

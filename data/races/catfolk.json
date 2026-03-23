@@ -5,9 +5,7 @@
   "asi_desc": "***Ability Score Increase.*** Your Dexterity score increases by 2.",
   "asi": [
     {
-      "attributes": [
-        "Dexterity"
-      ],
+      "attributes": ["Dexterity"],
       "value": 2
     }
   ],
@@ -29,9 +27,7 @@
       "desc": "It's often said curiosity killed the cat, and this applies with equal frequency to catfolk. As a malkin catfolk you are adept at finding clever solutions to escape difficult situations, even (or perhaps especially) situations of your own making. Your diminutive size also gives you an uncanny nimbleness that helps you avoid the worst consequences of your intense inquisitiveness. Most often found in densely populated regions, these catfolk are as curious about the comings and goings of other humanoids as they are about natural or magical phenomena and artifacts. While malkins are sometimes referred to as \"housecats\" by other humanoids and even by other catfolk, doing so in a malkin's hearing is a surefire way to get a face full of claws...",
       "asi": [
         {
-          "attributes": [
-            "Intelligence"
-          ],
+          "attributes": ["Intelligence"],
           "value": 1
         }
       ],
@@ -47,9 +43,7 @@
       "desc": "Pantheran catfolk are a wise, observant, and patient people who pride themselves on being resourceful and self-sufficient. Less social than many others of their kind, these catfolk typically dwell in small, close-knit family groups in the forests, jungles, and grasslands of the world, away from larger population centers or cities. Their family clans teach the importance of living off of and protecting the natural world, and pantherans act swiftly and mercilessly when their forest homes are threatened by outside forces. Conversely, pantherans can be the most fierce and loyal of neighbors to villages who respect nature and who take from the land and forest no more than they need. As a pantheran, you value nature and kinship, and your allies know they can count on your wisdom and, when necessary, your claws.",
       "asi": [
         {
-          "attributes": [
-            "Wisdom"
-          ],
+          "attributes": ["Wisdom"],
           "value": 1
         }
       ],

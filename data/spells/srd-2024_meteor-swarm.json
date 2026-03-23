@@ -58,10 +58,7 @@
   "saving_throw_ability": "dexterity",
   "attack_roll": false,
   "damage_roll": "20d6",
-  "damage_types": [
-    "fire",
-    "bludgeoning"
-  ],
+  "damage_types": ["fire", "bludgeoning"],
   "duration": "instantaneous",
   "shape_type": "sphere",
   "shape_size": 40,

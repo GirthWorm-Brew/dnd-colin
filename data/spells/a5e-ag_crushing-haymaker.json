@@ -58,9 +58,7 @@
   "saving_throw_ability": "constitution",
   "attack_roll": true,
   "damage_roll": "7d6",
-  "damage_types": [
-    "thunder"
-  ],
+  "damage_types": ["thunder"],
   "duration": "instantaneous",
   "shape_type": null,
   "shape_size": null,

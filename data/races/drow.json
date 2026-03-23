@@ -5,9 +5,7 @@
   "asi_desc": "***Ability Score Increase.*** Your Intelligence score increases by 2.",
   "asi": [
     {
-      "attributes": [
-        "Intelligence"
-      ],
+      "attributes": ["Intelligence"],
       "value": 2
     }
   ],
@@ -29,15 +27,11 @@
       "desc": "You are one of the workers whose labors prop up most of drow society. You were trained from birth to follow orders and serve the collective. You learned your trade well, whether it was building or fighting or erecting the traps that protected passages to your population centers.",
       "asi": [
         {
-          "attributes": [
-            "Strength"
-          ],
+          "attributes": ["Strength"],
           "value": 1
         },
         {
-          "attributes": [
-            "Dexterity"
-          ],
+          "attributes": ["Dexterity"],
           "value": 1
         }
       ],
@@ -53,9 +47,7 @@
       "desc": "You were once a typical drow, then you fell victim to the ravaging claws and teeth of a darakhul. The deadly darakhul fever almost took your life, but, when you were on the verge of succumbing, you rallied and survived. You were changed, however, in ways that even the greatest healers of your people can't fathom. But now that you are immune to darakhul fever, your commanders have a job for you.",
       "asi": [
         {
-          "attributes": [
-            "Constitution"
-          ],
+          "attributes": ["Constitution"],
           "value": 1
         }
       ],
@@ -71,9 +63,7 @@
       "desc": "You were born into the caste that produces the leaders and planners, the priests and wizards, the generals and officers of drow society. Your people, it is believed, were tested by the beneficent powers you worship, and you passed those tests to become something more. Your innate magic proves your superiority over your fellows.",
       "asi": [
         {
-          "attributes": [
-            "Charisma"
-          ],
+          "attributes": ["Charisma"],
           "value": 1
         }
       ],

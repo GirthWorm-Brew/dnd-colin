@@ -5,9 +5,7 @@
   "asi_desc": "***Ability Score Increase.*** Your Charisma score increases by 1, and one other ability score of your choice increases by 1. Choose one ability score that is increased by your Living Origin or by one of its subraces. That ability score increases by 1.",
   "asi": [
     {
-      "attributes": [
-        "Charisma"
-      ],
+      "attributes": ["Charisma"],
       "value": 1
     }
   ],

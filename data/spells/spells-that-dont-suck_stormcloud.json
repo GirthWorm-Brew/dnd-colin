@@ -58,10 +58,7 @@
   "saving_throw_ability": "constitution",
   "attack_roll": true,
   "damage_roll": "2d12 + 4d8",
-  "damage_types": [
-    "lightning",
-    "thunder"
-  ],
+  "damage_types": ["lightning", "thunder"],
   "duration": "1 minute",
   "shape_type": "sphere",
   "shape_size": 20,

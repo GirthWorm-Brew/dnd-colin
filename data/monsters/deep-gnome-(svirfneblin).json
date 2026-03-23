@@ -81,10 +81,7 @@
     "https://api.open5e.com/v2/spells/disguise-self/"
   ],
   "page_no": 315,
-  "environments": [
-    "Underdark",
-    "Caves"
-  ],
+  "environments": ["Underdark", "Caves"],
   "img_main": null,
   "document__slug": "wotc-srd",
   "document__title": "5e Core Rules",

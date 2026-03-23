@@ -64,9 +64,7 @@
   "saving_throw_ability": "dexterity",
   "attack_roll": false,
   "damage_roll": "20",
-  "damage_types": [
-    "radiant"
-  ],
+  "damage_types": ["radiant"],
   "duration": "8 hours",
   "shape_type": null,
   "shape_size": null,

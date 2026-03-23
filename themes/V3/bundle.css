@@ -2078,8 +2078,7 @@
 }
 .snippetBar .editors > div > div.divider {
   width: 5px;
-  background: linear-gradient(currentColor, currentColor) no-repeat center / 1px
-    100%;
+  background: linear-gradient(currentColor, currentColor) no-repeat center / 1px 100%;
 }
 .snippetBar .editors > div > div.divider:hover {
   background-color: inherit;
@@ -3212,101 +3211,61 @@
   background-color: #333333;
   border-top: 1px solid #888888;
 }
-.homebrew
-  nav
-  .navDropdownContainer.recent
-  .navDropdown
-  .navItem.tealLight:hover {
+.homebrew nav .navDropdownContainer.recent .navDropdown .navItem.tealLight:hover {
   background-color: #1abc9c;
 }
 .homebrew nav .navDropdownContainer.recent .navDropdown .navItem.teal:hover {
   background-color: #16a085;
 }
-.homebrew
-  nav
-  .navDropdownContainer.recent
-  .navDropdown
-  .navItem.greenLight:hover {
+.homebrew nav .navDropdownContainer.recent .navDropdown .navItem.greenLight:hover {
   background-color: #2ecc71;
 }
 .homebrew nav .navDropdownContainer.recent .navDropdown .navItem.green:hover {
   background-color: #27ae60;
 }
-.homebrew
-  nav
-  .navDropdownContainer.recent
-  .navDropdown
-  .navItem.blueLight:hover {
+.homebrew nav .navDropdownContainer.recent .navDropdown .navItem.blueLight:hover {
   background-color: #3498db;
 }
 .homebrew nav .navDropdownContainer.recent .navDropdown .navItem.blue:hover {
   background-color: #2980b9;
 }
-.homebrew
-  nav
-  .navDropdownContainer.recent
-  .navDropdown
-  .navItem.purpleLight:hover {
+.homebrew nav .navDropdownContainer.recent .navDropdown .navItem.purpleLight:hover {
   background-color: #9b59b6;
 }
 .homebrew nav .navDropdownContainer.recent .navDropdown .navItem.purple:hover {
   background-color: #8e44ad;
 }
-.homebrew
-  nav
-  .navDropdownContainer.recent
-  .navDropdown
-  .navItem.steelLight:hover {
+.homebrew nav .navDropdownContainer.recent .navDropdown .navItem.steelLight:hover {
   background-color: #34495e;
 }
 .homebrew nav .navDropdownContainer.recent .navDropdown .navItem.steel:hover {
   background-color: #2c3e50;
 }
-.homebrew
-  nav
-  .navDropdownContainer.recent
-  .navDropdown
-  .navItem.yellowLight:hover {
+.homebrew nav .navDropdownContainer.recent .navDropdown .navItem.yellowLight:hover {
   background-color: #f1c40f;
 }
 .homebrew nav .navDropdownContainer.recent .navDropdown .navItem.yellow:hover {
   background-color: #f39c12;
 }
-.homebrew
-  nav
-  .navDropdownContainer.recent
-  .navDropdown
-  .navItem.orangeLight:hover {
+.homebrew nav .navDropdownContainer.recent .navDropdown .navItem.orangeLight:hover {
   background-color: #e67e22;
 }
 .homebrew nav .navDropdownContainer.recent .navDropdown .navItem.orange:hover {
   background-color: #d35400;
 }
-.homebrew
-  nav
-  .navDropdownContainer.recent
-  .navDropdown
-  .navItem.redLight:hover {
+.homebrew nav .navDropdownContainer.recent .navDropdown .navItem.redLight:hover {
   background-color: #e74c3c;
 }
 .homebrew nav .navDropdownContainer.recent .navDropdown .navItem.red:hover {
   background-color: #c0392b;
 }
-.homebrew
-  nav
-  .navDropdownContainer.recent
-  .navDropdown
-  .navItem.silverLight:hover {
+.homebrew nav .navDropdownContainer.recent .navDropdown .navItem.silverLight:hover {
   background-color: #ecf0f1;
 }
 .homebrew nav .navDropdownContainer.recent .navDropdown .navItem.silver:hover {
   background-color: #bdc3c7;
 }
-.homebrew
-  nav
-  .navDropdownContainer.recent
-  .navDropdown
-  .navItem.greyLight:hover {
+.homebrew nav .navDropdownContainer.recent .navDropdown .navItem.greyLight:hover {
   background-color: #95a5a6;
 }
 .homebrew nav .navDropdownContainer.recent .navDropdown .navItem.grey:hover {
@@ -3364,18 +3323,10 @@
   background-color: #333333;
   border-top: 1px solid #888888;
 }
-.homebrew
-  nav
-  .navDropdownContainer.recent
-  .navDropdown
-  .navItem.header:nth-of-type(1) {
+.homebrew nav .navDropdownContainer.recent .navDropdown .navItem.header:nth-of-type(1) {
   background-color: #0a463a;
 }
-.homebrew
-  nav
-  .navDropdownContainer.recent
-  .navDropdown
-  .navItem.header:nth-of-type(2) {
+.homebrew nav .navDropdownContainer.recent .navDropdown .navItem.header:nth-of-type(2) {
   background-color: #34193f;
 }
 .save-menu .dropdown {
@@ -3767,19 +3718,7 @@
   vertical-align: baseline;
   border: 0;
 }
-:where(
-  article,
-  aside,
-  details,
-  figcaption,
-  figure,
-  footer,
-  header,
-  hgroup,
-  menu,
-  nav,
-  section
-) {
+:where(article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section) {
   display: block;
 }
 :where(body) {
@@ -3891,246 +3830,58 @@
     visibility: hidden;
   }
 }
-.editor
-  .codeEditor
-  .CodeMirror.cm-s-3024-night
-  .CodeMirror-code
-  .block:not(.cm-comment),
-.editor
-  .codeEditor
-  .CodeMirror.cm-s-abbott
-  .CodeMirror-code
-  .block:not(.cm-comment),
-.editor
-  .codeEditor
-  .CodeMirror.cm-s-abcdef
-  .CodeMirror-code
-  .block:not(.cm-comment),
-.editor
-  .codeEditor
-  .CodeMirror.cm-s-ambiance
-  .CodeMirror-code
-  .block:not(.cm-comment),
-.editor
-  .codeEditor
-  .CodeMirror.cm-s-ayu-dark
-  .CodeMirror-code
-  .block:not(.cm-comment),
-.editor
-  .codeEditor
-  .CodeMirror.cm-s-ayu-mirage
-  .CodeMirror-code
-  .block:not(.cm-comment),
-.editor
-  .codeEditor
-  .CodeMirror.cm-s-base16-dark
-  .CodeMirror-code
-  .block:not(.cm-comment),
-.editor
-  .codeEditor
-  .CodeMirror.cm-s-bespin
-  .CodeMirror-code
-  .block:not(.cm-comment),
-.editor
-  .codeEditor
-  .CodeMirror.cm-s-blackboard
-  .CodeMirror-code
-  .block:not(.cm-comment),
-.editor
-  .codeEditor
-  .CodeMirror.cm-s-cobalt
-  .CodeMirror-code
-  .block:not(.cm-comment),
-.editor
-  .codeEditor
-  .CodeMirror.cm-s-colorforth
-  .CodeMirror-code
-  .block:not(.cm-comment),
-.editor
-  .codeEditor
-  .CodeMirror.cm-s-darcula
-  .CodeMirror-code
-  .block:not(.cm-comment),
-.editor
-  .codeEditor
-  .CodeMirror.cm-s-dracula
-  .CodeMirror-code
-  .block:not(.cm-comment),
-.editor
-  .codeEditor
-  .CodeMirror.cm-s-duotone-dark
-  .CodeMirror-code
-  .block:not(.cm-comment),
-.editor
-  .codeEditor
-  .CodeMirror.cm-s-erlang-dark
-  .CodeMirror-code
-  .block:not(.cm-comment),
-.editor
-  .codeEditor
-  .CodeMirror.cm-s-gruvbox-dark
-  .CodeMirror-code
-  .block:not(.cm-comment),
-.editor
-  .codeEditor
-  .CodeMirror.cm-s-hopscotch
-  .CodeMirror-code
-  .block:not(.cm-comment),
-.editor
-  .codeEditor
-  .CodeMirror.cm-s-icecoder
-  .CodeMirror-code
-  .block:not(.cm-comment),
-.editor
-  .codeEditor
-  .CodeMirror.cm-s-isotope
-  .CodeMirror-code
-  .block:not(.cm-comment),
-.editor
-  .codeEditor
-  .CodeMirror.cm-s-lesser-dark
-  .CodeMirror-code
-  .block:not(.cm-comment),
-.editor
-  .codeEditor
-  .CodeMirror.cm-s-liquibyte
-  .CodeMirror-code
-  .block:not(.cm-comment),
-.editor
-  .codeEditor
-  .CodeMirror.cm-s-lucario
-  .CodeMirror-code
-  .block:not(.cm-comment),
-.editor
-  .codeEditor
-  .CodeMirror.cm-s-material
-  .CodeMirror-code
-  .block:not(.cm-comment),
-.editor
-  .codeEditor
-  .CodeMirror.cm-s-material-darker
-  .CodeMirror-code
-  .block:not(.cm-comment),
-.editor
-  .codeEditor
-  .CodeMirror.cm-s-material-ocean
-  .CodeMirror-code
-  .block:not(.cm-comment),
-.editor
-  .codeEditor
-  .CodeMirror.cm-s-material-palenight
-  .CodeMirror-code
-  .block:not(.cm-comment),
-.editor
-  .codeEditor
-  .CodeMirror.cm-s-mbo
-  .CodeMirror-code
-  .block:not(.cm-comment),
-.editor
-  .codeEditor
-  .CodeMirror.cm-s-midnight
-  .CodeMirror-code
-  .block:not(.cm-comment),
-.editor
-  .codeEditor
-  .CodeMirror.cm-s-monokai
-  .CodeMirror-code
-  .block:not(.cm-comment),
-.editor
-  .codeEditor
-  .CodeMirror.cm-s-moxer
-  .CodeMirror-code
-  .block:not(.cm-comment),
-.editor
-  .codeEditor
-  .CodeMirror.cm-s-night
-  .CodeMirror-code
-  .block:not(.cm-comment),
-.editor
-  .codeEditor
-  .CodeMirror.cm-s-nord
-  .CodeMirror-code
-  .block:not(.cm-comment),
-.editor
-  .codeEditor
-  .CodeMirror.cm-s-oceanic-next
-  .CodeMirror-code
-  .block:not(.cm-comment),
-.editor
-  .codeEditor
-  .CodeMirror.cm-s-panda-syntax
-  .CodeMirror-code
-  .block:not(.cm-comment),
-.editor
-  .codeEditor
-  .CodeMirror.cm-s-paraiso-dark
-  .CodeMirror-code
-  .block:not(.cm-comment),
-.editor
-  .codeEditor
-  .CodeMirror.cm-s-pastel-on-dark
-  .CodeMirror-code
-  .block:not(.cm-comment),
-.editor
-  .codeEditor
-  .CodeMirror.cm-s-railscasts
-  .CodeMirror-code
-  .block:not(.cm-comment),
-.editor
-  .codeEditor
-  .CodeMirror.cm-s-rubyblue
-  .CodeMirror-code
-  .block:not(.cm-comment),
-.editor
-  .codeEditor
-  .CodeMirror.cm-s-seti
-  .CodeMirror-code
-  .block:not(.cm-comment),
-.editor
-  .codeEditor
-  .CodeMirror.cm-s-shadowfox
-  .CodeMirror-code
-  .block:not(.cm-comment),
-.editor
-  .codeEditor
-  .CodeMirror.cm-s-the-matrix
-  .CodeMirror-code
-  .block:not(.cm-comment),
-.editor
-  .codeEditor
-  .CodeMirror.cm-s-tomorrow-night-bright
-  .CodeMirror-code
-  .block:not(.cm-comment),
+.editor .codeEditor .CodeMirror.cm-s-3024-night .CodeMirror-code .block:not(.cm-comment),
+.editor .codeEditor .CodeMirror.cm-s-abbott .CodeMirror-code .block:not(.cm-comment),
+.editor .codeEditor .CodeMirror.cm-s-abcdef .CodeMirror-code .block:not(.cm-comment),
+.editor .codeEditor .CodeMirror.cm-s-ambiance .CodeMirror-code .block:not(.cm-comment),
+.editor .codeEditor .CodeMirror.cm-s-ayu-dark .CodeMirror-code .block:not(.cm-comment),
+.editor .codeEditor .CodeMirror.cm-s-ayu-mirage .CodeMirror-code .block:not(.cm-comment),
+.editor .codeEditor .CodeMirror.cm-s-base16-dark .CodeMirror-code .block:not(.cm-comment),
+.editor .codeEditor .CodeMirror.cm-s-bespin .CodeMirror-code .block:not(.cm-comment),
+.editor .codeEditor .CodeMirror.cm-s-blackboard .CodeMirror-code .block:not(.cm-comment),
+.editor .codeEditor .CodeMirror.cm-s-cobalt .CodeMirror-code .block:not(.cm-comment),
+.editor .codeEditor .CodeMirror.cm-s-colorforth .CodeMirror-code .block:not(.cm-comment),
+.editor .codeEditor .CodeMirror.cm-s-darcula .CodeMirror-code .block:not(.cm-comment),
+.editor .codeEditor .CodeMirror.cm-s-dracula .CodeMirror-code .block:not(.cm-comment),
+.editor .codeEditor .CodeMirror.cm-s-duotone-dark .CodeMirror-code .block:not(.cm-comment),
+.editor .codeEditor .CodeMirror.cm-s-erlang-dark .CodeMirror-code .block:not(.cm-comment),
+.editor .codeEditor .CodeMirror.cm-s-gruvbox-dark .CodeMirror-code .block:not(.cm-comment),
+.editor .codeEditor .CodeMirror.cm-s-hopscotch .CodeMirror-code .block:not(.cm-comment),
+.editor .codeEditor .CodeMirror.cm-s-icecoder .CodeMirror-code .block:not(.cm-comment),
+.editor .codeEditor .CodeMirror.cm-s-isotope .CodeMirror-code .block:not(.cm-comment),
+.editor .codeEditor .CodeMirror.cm-s-lesser-dark .CodeMirror-code .block:not(.cm-comment),
+.editor .codeEditor .CodeMirror.cm-s-liquibyte .CodeMirror-code .block:not(.cm-comment),
+.editor .codeEditor .CodeMirror.cm-s-lucario .CodeMirror-code .block:not(.cm-comment),
+.editor .codeEditor .CodeMirror.cm-s-material .CodeMirror-code .block:not(.cm-comment),
+.editor .codeEditor .CodeMirror.cm-s-material-darker .CodeMirror-code .block:not(.cm-comment),
+.editor .codeEditor .CodeMirror.cm-s-material-ocean .CodeMirror-code .block:not(.cm-comment),
+.editor .codeEditor .CodeMirror.cm-s-material-palenight .CodeMirror-code .block:not(.cm-comment),
+.editor .codeEditor .CodeMirror.cm-s-mbo .CodeMirror-code .block:not(.cm-comment),
+.editor .codeEditor .CodeMirror.cm-s-midnight .CodeMirror-code .block:not(.cm-comment),
+.editor .codeEditor .CodeMirror.cm-s-monokai .CodeMirror-code .block:not(.cm-comment),
+.editor .codeEditor .CodeMirror.cm-s-moxer .CodeMirror-code .block:not(.cm-comment),
+.editor .codeEditor .CodeMirror.cm-s-night .CodeMirror-code .block:not(.cm-comment),
+.editor .codeEditor .CodeMirror.cm-s-nord .CodeMirror-code .block:not(.cm-comment),
+.editor .codeEditor .CodeMirror.cm-s-oceanic-next .CodeMirror-code .block:not(.cm-comment),
+.editor .codeEditor .CodeMirror.cm-s-panda-syntax .CodeMirror-code .block:not(.cm-comment),
+.editor .codeEditor .CodeMirror.cm-s-paraiso-dark .CodeMirror-code .block:not(.cm-comment),
+.editor .codeEditor .CodeMirror.cm-s-pastel-on-dark .CodeMirror-code .block:not(.cm-comment),
+.editor .codeEditor .CodeMirror.cm-s-railscasts .CodeMirror-code .block:not(.cm-comment),
+.editor .codeEditor .CodeMirror.cm-s-rubyblue .CodeMirror-code .block:not(.cm-comment),
+.editor .codeEditor .CodeMirror.cm-s-seti .CodeMirror-code .block:not(.cm-comment),
+.editor .codeEditor .CodeMirror.cm-s-shadowfox .CodeMirror-code .block:not(.cm-comment),
+.editor .codeEditor .CodeMirror.cm-s-the-matrix .CodeMirror-code .block:not(.cm-comment),
+.editor .codeEditor .CodeMirror.cm-s-tomorrow-night-bright .CodeMirror-code .block:not(.cm-comment),
 .editor
   .codeEditor
   .CodeMirror.cm-s-tomorrow-night-eighties
   .CodeMirror-code
   .block:not(.cm-comment),
-.editor
-  .codeEditor
-  .CodeMirror.cm-s-twilight
-  .CodeMirror-code
-  .block:not(.cm-comment),
-.editor
-  .codeEditor
-  .CodeMirror.cm-s-vibrant-ink
-  .CodeMirror-code
-  .block:not(.cm-comment),
-.editor
-  .codeEditor
-  .CodeMirror.cm-s-xq-dark
-  .CodeMirror-code
-  .block:not(.cm-comment),
-.editor
-  .codeEditor
-  .CodeMirror.cm-s-yonce
-  .CodeMirror-code
-  .block:not(.cm-comment),
-.editor
-  .codeEditor
-  .CodeMirror.cm-s-zenburn
-  .CodeMirror-code
-  .block:not(.cm-comment) {
+.editor .codeEditor .CodeMirror.cm-s-twilight .CodeMirror-code .block:not(.cm-comment),
+.editor .codeEditor .CodeMirror.cm-s-vibrant-ink .CodeMirror-code .block:not(.cm-comment),
+.editor .codeEditor .CodeMirror.cm-s-xq-dark .CodeMirror-code .block:not(.cm-comment),
+.editor .codeEditor .CodeMirror.cm-s-yonce .CodeMirror-code .block:not(.cm-comment),
+.editor .codeEditor .CodeMirror.cm-s-zenburn .CodeMirror-code .block:not(.cm-comment) {
   color: magenta;
 }
 .editor .codeEditor .CodeMirror.cm-s-3024-night .CodeMirror-code .columnSplit,
@@ -4156,21 +3907,9 @@
 .editor .codeEditor .CodeMirror.cm-s-liquibyte .CodeMirror-code .columnSplit,
 .editor .codeEditor .CodeMirror.cm-s-lucario .CodeMirror-code .columnSplit,
 .editor .codeEditor .CodeMirror.cm-s-material .CodeMirror-code .columnSplit,
-.editor
-  .codeEditor
-  .CodeMirror.cm-s-material-darker
-  .CodeMirror-code
-  .columnSplit,
-.editor
-  .codeEditor
-  .CodeMirror.cm-s-material-ocean
-  .CodeMirror-code
-  .columnSplit,
-.editor
-  .codeEditor
-  .CodeMirror.cm-s-material-palenight
-  .CodeMirror-code
-  .columnSplit,
+.editor .codeEditor .CodeMirror.cm-s-material-darker .CodeMirror-code .columnSplit,
+.editor .codeEditor .CodeMirror.cm-s-material-ocean .CodeMirror-code .columnSplit,
+.editor .codeEditor .CodeMirror.cm-s-material-palenight .CodeMirror-code .columnSplit,
 .editor .codeEditor .CodeMirror.cm-s-mbo .CodeMirror-code .columnSplit,
 .editor .codeEditor .CodeMirror.cm-s-midnight .CodeMirror-code .columnSplit,
 .editor .codeEditor .CodeMirror.cm-s-monokai .CodeMirror-code .columnSplit,
@@ -4180,26 +3919,14 @@
 .editor .codeEditor .CodeMirror.cm-s-oceanic-next .CodeMirror-code .columnSplit,
 .editor .codeEditor .CodeMirror.cm-s-panda-syntax .CodeMirror-code .columnSplit,
 .editor .codeEditor .CodeMirror.cm-s-paraiso-dark .CodeMirror-code .columnSplit,
-.editor
-  .codeEditor
-  .CodeMirror.cm-s-pastel-on-dark
-  .CodeMirror-code
-  .columnSplit,
+.editor .codeEditor .CodeMirror.cm-s-pastel-on-dark .CodeMirror-code .columnSplit,
 .editor .codeEditor .CodeMirror.cm-s-railscasts .CodeMirror-code .columnSplit,
 .editor .codeEditor .CodeMirror.cm-s-rubyblue .CodeMirror-code .columnSplit,
 .editor .codeEditor .CodeMirror.cm-s-seti .CodeMirror-code .columnSplit,
 .editor .codeEditor .CodeMirror.cm-s-shadowfox .CodeMirror-code .columnSplit,
 .editor .codeEditor .CodeMirror.cm-s-the-matrix .CodeMirror-code .columnSplit,
-.editor
-  .codeEditor
-  .CodeMirror.cm-s-tomorrow-night-bright
-  .CodeMirror-code
-  .columnSplit,
-.editor
-  .codeEditor
-  .CodeMirror.cm-s-tomorrow-night-eighties
-  .CodeMirror-code
-  .columnSplit,
+.editor .codeEditor .CodeMirror.cm-s-tomorrow-night-bright .CodeMirror-code .columnSplit,
+.editor .codeEditor .CodeMirror.cm-s-tomorrow-night-eighties .CodeMirror-code .columnSplit,
 .editor .codeEditor .CodeMirror.cm-s-twilight .CodeMirror-code .columnSplit,
 .editor .codeEditor .CodeMirror.cm-s-vibrant-ink .CodeMirror-code .columnSplit,
 .editor .codeEditor .CodeMirror.cm-s-xq-dark .CodeMirror-code .columnSplit,
@@ -4233,11 +3960,7 @@
 .editor .codeEditor .CodeMirror.cm-s-material .CodeMirror-code .pageLine,
 .editor .codeEditor .CodeMirror.cm-s-material-darker .CodeMirror-code .pageLine,
 .editor .codeEditor .CodeMirror.cm-s-material-ocean .CodeMirror-code .pageLine,
-.editor
-  .codeEditor
-  .CodeMirror.cm-s-material-palenight
-  .CodeMirror-code
-  .pageLine,
+.editor .codeEditor .CodeMirror.cm-s-material-palenight .CodeMirror-code .pageLine,
 .editor .codeEditor .CodeMirror.cm-s-mbo .CodeMirror-code .pageLine,
 .editor .codeEditor .CodeMirror.cm-s-midnight .CodeMirror-code .pageLine,
 .editor .codeEditor .CodeMirror.cm-s-monokai .CodeMirror-code .pageLine,
@@ -4253,16 +3976,8 @@
 .editor .codeEditor .CodeMirror.cm-s-seti .CodeMirror-code .pageLine,
 .editor .codeEditor .CodeMirror.cm-s-shadowfox .CodeMirror-code .pageLine,
 .editor .codeEditor .CodeMirror.cm-s-the-matrix .CodeMirror-code .pageLine,
-.editor
-  .codeEditor
-  .CodeMirror.cm-s-tomorrow-night-bright
-  .CodeMirror-code
-  .pageLine,
-.editor
-  .codeEditor
-  .CodeMirror.cm-s-tomorrow-night-eighties
-  .CodeMirror-code
-  .pageLine,
+.editor .codeEditor .CodeMirror.cm-s-tomorrow-night-bright .CodeMirror-code .pageLine,
+.editor .codeEditor .CodeMirror.cm-s-tomorrow-night-eighties .CodeMirror-code .pageLine,
 .editor .codeEditor .CodeMirror.cm-s-twilight .CodeMirror-code .pageLine,
 .editor .codeEditor .CodeMirror.cm-s-vibrant-ink .CodeMirror-code .pageLine,
 .editor .codeEditor .CodeMirror.cm-s-xq-dark .CodeMirror-code .pageLine,
@@ -4270,144 +3985,29 @@
 .editor .codeEditor .CodeMirror.cm-s-zenburn .CodeMirror-code .pageLine {
   background-color: rgba(255, 255, 255, 0.5);
 }
-.editor
-  .codeEditor
-  .CodeMirror.cm-s-3024-night
-  .CodeMirror-code
-  .pageLine
-  ~ pre.CodeMirror-line,
-.editor
-  .codeEditor
-  .CodeMirror.cm-s-abbott
-  .CodeMirror-code
-  .pageLine
-  ~ pre.CodeMirror-line,
-.editor
-  .codeEditor
-  .CodeMirror.cm-s-abcdef
-  .CodeMirror-code
-  .pageLine
-  ~ pre.CodeMirror-line,
-.editor
-  .codeEditor
-  .CodeMirror.cm-s-ambiance
-  .CodeMirror-code
-  .pageLine
-  ~ pre.CodeMirror-line,
-.editor
-  .codeEditor
-  .CodeMirror.cm-s-ayu-dark
-  .CodeMirror-code
-  .pageLine
-  ~ pre.CodeMirror-line,
-.editor
-  .codeEditor
-  .CodeMirror.cm-s-ayu-mirage
-  .CodeMirror-code
-  .pageLine
-  ~ pre.CodeMirror-line,
-.editor
-  .codeEditor
-  .CodeMirror.cm-s-base16-dark
-  .CodeMirror-code
-  .pageLine
-  ~ pre.CodeMirror-line,
-.editor
-  .codeEditor
-  .CodeMirror.cm-s-bespin
-  .CodeMirror-code
-  .pageLine
-  ~ pre.CodeMirror-line,
-.editor
-  .codeEditor
-  .CodeMirror.cm-s-blackboard
-  .CodeMirror-code
-  .pageLine
-  ~ pre.CodeMirror-line,
-.editor
-  .codeEditor
-  .CodeMirror.cm-s-cobalt
-  .CodeMirror-code
-  .pageLine
-  ~ pre.CodeMirror-line,
-.editor
-  .codeEditor
-  .CodeMirror.cm-s-colorforth
-  .CodeMirror-code
-  .pageLine
-  ~ pre.CodeMirror-line,
-.editor
-  .codeEditor
-  .CodeMirror.cm-s-darcula
-  .CodeMirror-code
-  .pageLine
-  ~ pre.CodeMirror-line,
-.editor
-  .codeEditor
-  .CodeMirror.cm-s-dracula
-  .CodeMirror-code
-  .pageLine
-  ~ pre.CodeMirror-line,
-.editor
-  .codeEditor
-  .CodeMirror.cm-s-duotone-dark
-  .CodeMirror-code
-  .pageLine
-  ~ pre.CodeMirror-line,
-.editor
-  .codeEditor
-  .CodeMirror.cm-s-erlang-dark
-  .CodeMirror-code
-  .pageLine
-  ~ pre.CodeMirror-line,
-.editor
-  .codeEditor
-  .CodeMirror.cm-s-gruvbox-dark
-  .CodeMirror-code
-  .pageLine
-  ~ pre.CodeMirror-line,
-.editor
-  .codeEditor
-  .CodeMirror.cm-s-hopscotch
-  .CodeMirror-code
-  .pageLine
-  ~ pre.CodeMirror-line,
-.editor
-  .codeEditor
-  .CodeMirror.cm-s-icecoder
-  .CodeMirror-code
-  .pageLine
-  ~ pre.CodeMirror-line,
-.editor
-  .codeEditor
-  .CodeMirror.cm-s-isotope
-  .CodeMirror-code
-  .pageLine
-  ~ pre.CodeMirror-line,
-.editor
-  .codeEditor
-  .CodeMirror.cm-s-lesser-dark
-  .CodeMirror-code
-  .pageLine
-  ~ pre.CodeMirror-line,
-.editor
-  .codeEditor
-  .CodeMirror.cm-s-liquibyte
-  .CodeMirror-code
-  .pageLine
-  ~ pre.CodeMirror-line,
-.editor
-  .codeEditor
-  .CodeMirror.cm-s-lucario
-  .CodeMirror-code
-  .pageLine
-  ~ pre.CodeMirror-line,
-.editor
-  .codeEditor
-  .CodeMirror.cm-s-material
-  .CodeMirror-code
-  .pageLine
-  ~ pre.CodeMirror-line,
+.editor .codeEditor .CodeMirror.cm-s-3024-night .CodeMirror-code .pageLine ~ pre.CodeMirror-line,
+.editor .codeEditor .CodeMirror.cm-s-abbott .CodeMirror-code .pageLine ~ pre.CodeMirror-line,
+.editor .codeEditor .CodeMirror.cm-s-abcdef .CodeMirror-code .pageLine ~ pre.CodeMirror-line,
+.editor .codeEditor .CodeMirror.cm-s-ambiance .CodeMirror-code .pageLine ~ pre.CodeMirror-line,
+.editor .codeEditor .CodeMirror.cm-s-ayu-dark .CodeMirror-code .pageLine ~ pre.CodeMirror-line,
+.editor .codeEditor .CodeMirror.cm-s-ayu-mirage .CodeMirror-code .pageLine ~ pre.CodeMirror-line,
+.editor .codeEditor .CodeMirror.cm-s-base16-dark .CodeMirror-code .pageLine ~ pre.CodeMirror-line,
+.editor .codeEditor .CodeMirror.cm-s-bespin .CodeMirror-code .pageLine ~ pre.CodeMirror-line,
+.editor .codeEditor .CodeMirror.cm-s-blackboard .CodeMirror-code .pageLine ~ pre.CodeMirror-line,
+.editor .codeEditor .CodeMirror.cm-s-cobalt .CodeMirror-code .pageLine ~ pre.CodeMirror-line,
+.editor .codeEditor .CodeMirror.cm-s-colorforth .CodeMirror-code .pageLine ~ pre.CodeMirror-line,
+.editor .codeEditor .CodeMirror.cm-s-darcula .CodeMirror-code .pageLine ~ pre.CodeMirror-line,
+.editor .codeEditor .CodeMirror.cm-s-dracula .CodeMirror-code .pageLine ~ pre.CodeMirror-line,
+.editor .codeEditor .CodeMirror.cm-s-duotone-dark .CodeMirror-code .pageLine ~ pre.CodeMirror-line,
+.editor .codeEditor .CodeMirror.cm-s-erlang-dark .CodeMirror-code .pageLine ~ pre.CodeMirror-line,
+.editor .codeEditor .CodeMirror.cm-s-gruvbox-dark .CodeMirror-code .pageLine ~ pre.CodeMirror-line,
+.editor .codeEditor .CodeMirror.cm-s-hopscotch .CodeMirror-code .pageLine ~ pre.CodeMirror-line,
+.editor .codeEditor .CodeMirror.cm-s-icecoder .CodeMirror-code .pageLine ~ pre.CodeMirror-line,
+.editor .codeEditor .CodeMirror.cm-s-isotope .CodeMirror-code .pageLine ~ pre.CodeMirror-line,
+.editor .codeEditor .CodeMirror.cm-s-lesser-dark .CodeMirror-code .pageLine ~ pre.CodeMirror-line,
+.editor .codeEditor .CodeMirror.cm-s-liquibyte .CodeMirror-code .pageLine ~ pre.CodeMirror-line,
+.editor .codeEditor .CodeMirror.cm-s-lucario .CodeMirror-code .pageLine ~ pre.CodeMirror-line,
+.editor .codeEditor .CodeMirror.cm-s-material .CodeMirror-code .pageLine ~ pre.CodeMirror-line,
 .editor
   .codeEditor
   .CodeMirror.cm-s-material-darker
@@ -4426,96 +4026,26 @@
   .CodeMirror-code
   .pageLine
   ~ pre.CodeMirror-line,
-.editor
-  .codeEditor
-  .CodeMirror.cm-s-mbo
-  .CodeMirror-code
-  .pageLine
-  ~ pre.CodeMirror-line,
-.editor
-  .codeEditor
-  .CodeMirror.cm-s-midnight
-  .CodeMirror-code
-  .pageLine
-  ~ pre.CodeMirror-line,
-.editor
-  .codeEditor
-  .CodeMirror.cm-s-monokai
-  .CodeMirror-code
-  .pageLine
-  ~ pre.CodeMirror-line,
-.editor
-  .codeEditor
-  .CodeMirror.cm-s-moxer
-  .CodeMirror-code
-  .pageLine
-  ~ pre.CodeMirror-line,
-.editor
-  .codeEditor
-  .CodeMirror.cm-s-night
-  .CodeMirror-code
-  .pageLine
-  ~ pre.CodeMirror-line,
-.editor
-  .codeEditor
-  .CodeMirror.cm-s-nord
-  .CodeMirror-code
-  .pageLine
-  ~ pre.CodeMirror-line,
-.editor
-  .codeEditor
-  .CodeMirror.cm-s-oceanic-next
-  .CodeMirror-code
-  .pageLine
-  ~ pre.CodeMirror-line,
-.editor
-  .codeEditor
-  .CodeMirror.cm-s-panda-syntax
-  .CodeMirror-code
-  .pageLine
-  ~ pre.CodeMirror-line,
-.editor
-  .codeEditor
-  .CodeMirror.cm-s-paraiso-dark
-  .CodeMirror-code
-  .pageLine
-  ~ pre.CodeMirror-line,
+.editor .codeEditor .CodeMirror.cm-s-mbo .CodeMirror-code .pageLine ~ pre.CodeMirror-line,
+.editor .codeEditor .CodeMirror.cm-s-midnight .CodeMirror-code .pageLine ~ pre.CodeMirror-line,
+.editor .codeEditor .CodeMirror.cm-s-monokai .CodeMirror-code .pageLine ~ pre.CodeMirror-line,
+.editor .codeEditor .CodeMirror.cm-s-moxer .CodeMirror-code .pageLine ~ pre.CodeMirror-line,
+.editor .codeEditor .CodeMirror.cm-s-night .CodeMirror-code .pageLine ~ pre.CodeMirror-line,
+.editor .codeEditor .CodeMirror.cm-s-nord .CodeMirror-code .pageLine ~ pre.CodeMirror-line,
+.editor .codeEditor .CodeMirror.cm-s-oceanic-next .CodeMirror-code .pageLine ~ pre.CodeMirror-line,
+.editor .codeEditor .CodeMirror.cm-s-panda-syntax .CodeMirror-code .pageLine ~ pre.CodeMirror-line,
+.editor .codeEditor .CodeMirror.cm-s-paraiso-dark .CodeMirror-code .pageLine ~ pre.CodeMirror-line,
 .editor
   .codeEditor
   .CodeMirror.cm-s-pastel-on-dark
   .CodeMirror-code
   .pageLine
   ~ pre.CodeMirror-line,
-.editor
-  .codeEditor
-  .CodeMirror.cm-s-railscasts
-  .CodeMirror-code
-  .pageLine
-  ~ pre.CodeMirror-line,
-.editor
-  .codeEditor
-  .CodeMirror.cm-s-rubyblue
-  .CodeMirror-code
-  .pageLine
-  ~ pre.CodeMirror-line,
-.editor
-  .codeEditor
-  .CodeMirror.cm-s-seti
-  .CodeMirror-code
-  .pageLine
-  ~ pre.CodeMirror-line,
-.editor
-  .codeEditor
-  .CodeMirror.cm-s-shadowfox
-  .CodeMirror-code
-  .pageLine
-  ~ pre.CodeMirror-line,
-.editor
-  .codeEditor
-  .CodeMirror.cm-s-the-matrix
-  .CodeMirror-code
-  .pageLine
-  ~ pre.CodeMirror-line,
+.editor .codeEditor .CodeMirror.cm-s-railscasts .CodeMirror-code .pageLine ~ pre.CodeMirror-line,
+.editor .codeEditor .CodeMirror.cm-s-rubyblue .CodeMirror-code .pageLine ~ pre.CodeMirror-line,
+.editor .codeEditor .CodeMirror.cm-s-seti .CodeMirror-code .pageLine ~ pre.CodeMirror-line,
+.editor .codeEditor .CodeMirror.cm-s-shadowfox .CodeMirror-code .pageLine ~ pre.CodeMirror-line,
+.editor .codeEditor .CodeMirror.cm-s-the-matrix .CodeMirror-code .pageLine ~ pre.CodeMirror-line,
 .editor
   .codeEditor
   .CodeMirror.cm-s-tomorrow-night-bright
@@ -4528,36 +4058,11 @@
   .CodeMirror-code
   .pageLine
   ~ pre.CodeMirror-line,
-.editor
-  .codeEditor
-  .CodeMirror.cm-s-twilight
-  .CodeMirror-code
-  .pageLine
-  ~ pre.CodeMirror-line,
-.editor
-  .codeEditor
-  .CodeMirror.cm-s-vibrant-ink
-  .CodeMirror-code
-  .pageLine
-  ~ pre.CodeMirror-line,
-.editor
-  .codeEditor
-  .CodeMirror.cm-s-xq-dark
-  .CodeMirror-code
-  .pageLine
-  ~ pre.CodeMirror-line,
-.editor
-  .codeEditor
-  .CodeMirror.cm-s-yonce
-  .CodeMirror-code
-  .pageLine
-  ~ pre.CodeMirror-line,
-.editor
-  .codeEditor
-  .CodeMirror.cm-s-zenburn
-  .CodeMirror-code
-  .pageLine
-  ~ pre.CodeMirror-line {
+.editor .codeEditor .CodeMirror.cm-s-twilight .CodeMirror-code .pageLine ~ pre.CodeMirror-line,
+.editor .codeEditor .CodeMirror.cm-s-vibrant-ink .CodeMirror-code .pageLine ~ pre.CodeMirror-line,
+.editor .codeEditor .CodeMirror.cm-s-xq-dark .CodeMirror-code .pageLine ~ pre.CodeMirror-line,
+.editor .codeEditor .CodeMirror.cm-s-yonce .CodeMirror-code .pageLine ~ pre.CodeMirror-line,
+.editor .codeEditor .CodeMirror.cm-s-zenburn .CodeMirror-code .pageLine ~ pre.CodeMirror-line {
   color: black;
 }
 .editor .codeEditor .CodeMirror.cm-s-default,
@@ -4570,12 +4075,7 @@
 .editor .codeEditor .CodeMirror.cm-s-juejin,
 .editor .codeEditor .CodeMirror.cm-s-neat,
 .editor .codeEditor .CodeMirror.cm-s-neo,
-.editor
-  .codeEditor
-  .CodeMirror.cm-s-paraiso-lightm
-  .editor
-  .codeEditor
-  .CodeMirror.cm-s-solarized,
+.editor .codeEditor .CodeMirror.cm-s-paraiso-lightm .editor .codeEditor .CodeMirror.cm-s-solarized,
 .editor .codeEditor .CodeMirror.cm-s-ssms,
 .editor .codeEditor .CodeMirror.cm-s-ttcn,
 .editor .codeEditor .CodeMirror.cm-s-xq-light,
@@ -4845,18 +4345,10 @@
 .vaultPage :where(.content .dataGroup).form .brewLookup .formContents input {
   margin: 0 10px;
 }
-.vaultPage
-  :where(.content .dataGroup).form
-  .brewLookup
-  .formContents
-  input:invalid {
+.vaultPage :where(.content .dataGroup).form .brewLookup .formContents input:invalid {
   background: #ffbcb5;
 }
-.vaultPage
-  :where(.content .dataGroup).form
-  .brewLookup
-  .formContents
-  #searchButton {
+.vaultPage :where(.content .dataGroup).form .brewLookup .formContents #searchButton {
   -webkit-transition: background-color 0.25s ease;
   -moz-transition: background-color 0.25s ease;
   -o-transition: background-color 0.25s ease;
@@ -4877,34 +4369,17 @@
   right: 20px;
   bottom: 0;
 }
-.vaultPage
-  :where(.content .dataGroup).form
-  .brewLookup
-  .formContents
-  #searchButton:hover {
+.vaultPage :where(.content .dataGroup).form .brewLookup .formContents #searchButton:hover {
   background-color: #295;
 }
-.vaultPage
-  :where(.content .dataGroup).form
-  .brewLookup
-  .formContents
-  #searchButton:active {
+.vaultPage :where(.content .dataGroup).form .brewLookup .formContents #searchButton:active {
   background-color: #1e8449;
 }
-.vaultPage
-  :where(.content .dataGroup).form
-  .brewLookup
-  .formContents
-  #searchButton:disabled {
+.vaultPage :where(.content .dataGroup).form .brewLookup .formContents #searchButton:disabled {
   cursor: not-allowed;
   background-color: #bdc3c7 !important;
 }
-.vaultPage
-  :where(.content .dataGroup).form
-  .brewLookup
-  .formContents
-  #searchButton
-  i {
+.vaultPage :where(.content .dataGroup).form .brewLookup .formContents #searchButton i {
   margin-left: 10px;
   animation-duration: 1000s;
 }
@@ -4931,31 +4406,18 @@
   border-top: 1px solid #666666;
   border-bottom: 1px solid #666666;
 }
-.vaultPage
-  :where(.content .dataGroup).resultsContainer
-  .sort-container
-  .sort-option {
+.vaultPage :where(.content .dataGroup).resultsContainer .sort-container .sort-option {
   display: flex;
   align-items: center;
   padding: 0 8px;
 }
-.vaultPage
-  :where(.content .dataGroup).resultsContainer
-  .sort-container
-  .sort-option:hover {
+.vaultPage :where(.content .dataGroup).resultsContainer .sort-container .sort-option:hover {
   background-color: #444444;
 }
-.vaultPage
-  :where(.content .dataGroup).resultsContainer
-  .sort-container
-  .sort-option.active {
+.vaultPage :where(.content .dataGroup).resultsContainer .sort-container .sort-option.active {
   background-color: #333333;
 }
-.vaultPage
-  :where(.content .dataGroup).resultsContainer
-  .sort-container
-  .sort-option.active
-  button {
+.vaultPage :where(.content .dataGroup).resultsContainer .sort-container .sort-option.active button {
   font-weight: 800;
   color: white;
 }
@@ -4967,11 +4429,7 @@
   + .sortDir {
   padding-left: 5px;
 }
-.vaultPage
-  :where(.content .dataGroup).resultsContainer
-  .sort-container
-  .sort-option
-  button {
+.vaultPage :where(.content .dataGroup).resultsContainer .sort-container .sort-option button {
   padding: 0;
   font-size: 11px;
   font-weight: normal;
@@ -4979,11 +4437,7 @@
   text-transform: uppercase;
   background-color: transparent;
 }
-.vaultPage
-  :where(.content .dataGroup).resultsContainer
-  .sort-container
-  .sort-option
-  button:hover {
+.vaultPage :where(.content .dataGroup).resultsContainer .sort-container .sort-option button:hover {
   background: none;
 }
 .vaultPage :where(.content .dataGroup).resultsContainer .foundBrews {
@@ -5008,16 +4462,10 @@
   place-items: center;
   color: white;
 }
-.vaultPage
-  :where(.content .dataGroup).resultsContainer
-  .foundBrews.searching
-  h3 {
+.vaultPage :where(.content .dataGroup).resultsContainer .foundBrews.searching h3 {
   position: relative;
 }
-.vaultPage
-  :where(.content .dataGroup).resultsContainer
-  .foundBrews.searching
-  h3.searchAnim::after {
+.vaultPage :where(.content .dataGroup).resultsContainer .foundBrews.searching h3.searchAnim::after {
   position: absolute;
   top: 50%;
   right: 0;
@@ -5027,10 +4475,7 @@
   translate: calc(100% + 5px) -50%;
   animation: trailingDots 2s ease infinite;
 }
-.vaultPage
-  :where(.content .dataGroup).resultsContainer
-  .foundBrews
-  .totalBrews {
+.vaultPage :where(.content .dataGroup).resultsContainer .foundBrews .totalBrews {
   position: fixed;
   right: 0;
   bottom: 0;
@@ -5042,21 +4487,13 @@
   color: white;
   background-color: #333333;
 }
-.vaultPage
-  :where(.content .dataGroup).resultsContainer
-  .foundBrews
-  .totalBrews
-  .searchAnim {
+.vaultPage :where(.content .dataGroup).resultsContainer .foundBrews .totalBrews .searchAnim {
   position: relative;
   display: inline-block;
   width: 3ch;
   height: 1em;
 }
-.vaultPage
-  :where(.content .dataGroup).resultsContainer
-  .foundBrews
-  .totalBrews
-  .searchAnim::after {
+.vaultPage :where(.content .dataGroup).resultsContainer .foundBrews .totalBrews .searchAnim::after {
   position: absolute;
   top: 50%;
   right: 0;
@@ -5073,10 +4510,7 @@
   isolation: isolate;
   transition: width 0.5s;
 }
-.vaultPage
-  :where(.content .dataGroup).resultsContainer
-  .foundBrews
-  .brewItem::after {
+.vaultPage :where(.content .dataGroup).resultsContainer .foundBrews .brewItem::after {
   position: absolute;
   inset: 0;
   z-index: -2;
@@ -5090,62 +4524,34 @@
   .brewItem:nth-child(even of .brewItem) {
   margin-right: 0;
 }
-.vaultPage
-  :where(.content .dataGroup).resultsContainer
-  .foundBrews
-  .brewItem
-  h2 {
+.vaultPage :where(.content .dataGroup).resultsContainer .foundBrews .brewItem h2 {
   font-family: "MrEavesRemake";
   font-size: 0.75cm;
   font-weight: 800;
   line-height: 0.988em;
   color: var(--HB_Color_HeaderText);
 }
-.vaultPage
-  :where(.content .dataGroup).resultsContainer
-  .foundBrews
-  .brewItem
-  .info {
+.vaultPage :where(.content .dataGroup).resultsContainer .foundBrews .brewItem .info {
   position: relative;
   z-index: 2;
   font-family: "ScalySansRemake";
   font-size: 1.2em;
 }
-.vaultPage
-  :where(.content .dataGroup).resultsContainer
-  .foundBrews
-  .brewItem
-  .info
-  > span {
+.vaultPage :where(.content .dataGroup).resultsContainer .foundBrews .brewItem .info > span {
   margin-right: 12px;
   line-height: 1.5em;
 }
-.vaultPage
-  :where(.content .dataGroup).resultsContainer
-  .foundBrews
-  .brewItem
-  .links {
+.vaultPage :where(.content .dataGroup).resultsContainer .foundBrews .brewItem .links {
   z-index: 2;
 }
-.vaultPage
-  :where(.content .dataGroup).resultsContainer
-  .foundBrews
-  .brewItem
-  hr {
+.vaultPage :where(.content .dataGroup).resultsContainer .foundBrews .brewItem hr {
   visibility: hidden;
   margin: 0px;
 }
-.vaultPage
-  :where(.content .dataGroup).resultsContainer
-  .foundBrews
-  .brewItem
-  .thumbnail {
+.vaultPage :where(.content .dataGroup).resultsContainer .foundBrews .brewItem .thumbnail {
   z-index: -1;
 }
-.vaultPage
-  :where(.content .dataGroup).resultsContainer
-  .foundBrews
-  .paginationControls {
+.vaultPage :where(.content .dataGroup).resultsContainer .foundBrews .paginationControls {
   position: absolute;
   top: 35px;
   left: 50%;
@@ -5158,17 +4564,10 @@
   font-size: 15px;
   translate: -50%;
 }
-.vaultPage
-  :where(.content .dataGroup).resultsContainer
-  .foundBrews
-  .paginationControls:last-child {
+.vaultPage :where(.content .dataGroup).resultsContainer .foundBrews .paginationControls:last-child {
   top: unset;
 }
-.vaultPage
-  :where(.content .dataGroup).resultsContainer
-  .foundBrews
-  .paginationControls
-  .pages {
+.vaultPage :where(.content .dataGroup).resultsContainer .foundBrews .paginationControls .pages {
   display: flex;
   grid-area: currentPage;
   gap: 1em;
@@ -5219,11 +4618,7 @@
   .pageNumber.lastPage {
   margin-left: -5px;
 }
-.vaultPage
-  :where(.content .dataGroup).resultsContainer
-  .foundBrews
-  .paginationControls
-  button {
+.vaultPage :where(.content .dataGroup).resultsContainer .foundBrews .paginationControls button {
   -webkit-transition: background-color 0.25s ease;
   -moz-transition: background-color 0.25s ease;
   -o-transition: background-color 0.25s ease;

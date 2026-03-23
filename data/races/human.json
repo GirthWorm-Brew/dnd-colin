@@ -5,39 +5,27 @@
   "asi_desc": "**_Ability Score Increase._** Your ability scores each increase by 1.",
   "asi": [
     {
-      "attributes": [
-        "Strength"
-      ],
+      "attributes": ["Strength"],
       "value": 1
     },
     {
-      "attributes": [
-        "Dexterity"
-      ],
+      "attributes": ["Dexterity"],
       "value": 1
     },
     {
-      "attributes": [
-        "Constitution"
-      ],
+      "attributes": ["Constitution"],
       "value": 1
     },
     {
-      "attributes": [
-        "Intelligence"
-      ],
+      "attributes": ["Intelligence"],
       "value": 1
     },
     {
-      "attributes": [
-        "Wisdom"
-      ],
+      "attributes": ["Wisdom"],
       "value": 1
     },
     {
-      "attributes": [
-        "Charisma"
-      ],
+      "attributes": ["Charisma"],
       "value": 1
     }
   ],

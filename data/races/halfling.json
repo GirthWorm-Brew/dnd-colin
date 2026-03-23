@@ -5,9 +5,7 @@
   "asi_desc": "**_Ability Score Increase._** Your Dexterity score increases by 2.",
   "asi": [
     {
-      "attributes": [
-        "Dexterity"
-      ],
+      "attributes": ["Dexterity"],
       "value": 2
     }
   ],
@@ -29,9 +27,7 @@
       "desc": "As a lightfoot halfling, you can easily hide from notice, even using other people as cover. You're inclined to be affable and get along well with others.\nLightfoots are more prone to wanderlust than other halflings, and often dwell alongside other races or take up a nomadic life.",
       "asi": [
         {
-          "attributes": [
-            "Charisma"
-          ],
+          "attributes": ["Charisma"],
           "value": 1
         }
       ],
@@ -47,9 +43,7 @@
       "desc": "Stoor halflings earn their moniker from an archaic word for \"strong\" or \"large,\" and indeed the average stoor towers some six inches taller than their lightfoot cousins. They are also particularly hardy by halfling standards, famous for being able to hold down the strongest dwarven ales, for which they have also earned a reputation of relative boorishness. Still, most stoor halflings are good natured and simple folk, and any lightfoot would be happy to have a handful of stoor cousins to back them up in a barroom brawl.",
       "asi": [
         {
-          "attributes": [
-            "Constitution"
-          ],
+          "attributes": ["Constitution"],
           "value": 1
         }
       ],

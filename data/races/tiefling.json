@@ -5,15 +5,11 @@
   "asi_desc": "**_Ability Score Increase._** Your Intelligence score increases by 1, and your Charisma score increases by 2.",
   "asi": [
     {
-      "attributes": [
-        "Intelligence"
-      ],
+      "attributes": ["Intelligence"],
       "value": 1
     },
     {
-      "attributes": [
-        "Charisma"
-      ],
+      "attributes": ["Charisma"],
       "value": 2
     }
   ],

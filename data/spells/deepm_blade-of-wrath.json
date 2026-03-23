@@ -134,9 +134,7 @@
   "saving_throw_ability": "wisdom",
   "attack_roll": true,
   "damage_roll": "2d8",
-  "damage_types": [
-    "fire"
-  ],
+  "damage_types": ["fire"],
   "duration": "10 minutes",
   "shape_type": null,
   "shape_size": null,

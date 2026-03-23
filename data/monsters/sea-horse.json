@@ -49,12 +49,7 @@
   ],
   "spell_list": [],
   "page_no": 389,
-  "environments": [
-    "Ocean",
-    "Lake",
-    "Water",
-    "Plane Of Water"
-  ],
+  "environments": ["Ocean", "Lake", "Water", "Plane Of Water"],
   "img_main": null,
   "document__slug": "wotc-srd",
   "document__title": "5e Core Rules",

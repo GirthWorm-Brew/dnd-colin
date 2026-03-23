@@ -68,9 +68,7 @@
   "saving_throw_ability": "dexterity",
   "attack_roll": false,
   "damage_roll": "6d6",
-  "damage_types": [
-    "fire"
-  ],
+  "damage_types": ["fire"],
   "duration": "10 minutes",
   "shape_type": null,
   "shape_size": null,

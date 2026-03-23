@@ -129,9 +129,7 @@
   "saving_throw_ability": "",
   "attack_roll": true,
   "damage_roll": "3d6",
-  "damage_types": [
-    "fire"
-  ],
+  "damage_types": ["fire"],
   "duration": "10 minute",
   "shape_type": null,
   "shape_size": null,

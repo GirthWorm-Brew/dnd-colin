@@ -41,20 +41,14 @@ export default function Spell() {
               <>
                 <dt>{option.type}</dt>
                 <dd>
-                  {option.damage_roll != null ? (
-                    <li>Damage Roll: {option.damage_roll}</li>
-                  ) : null}
+                  {option.damage_roll != null ? <li>Damage Roll: {option.damage_roll}</li> : null}
                   {option.desc != null ? <li>{option.desc}</li> : null}
                   {option.target_count != null ? (
                     <li>Target Count: {option.target_count}</li>
                   ) : null}
-                  {option.duration != null ? (
-                    <li>Duration: {option.duration}</li>
-                  ) : null}
+                  {option.duration != null ? <li>Duration: {option.duration}</li> : null}
                   {option.range != null ? <li>Range: {option.range}</li> : null}
-                  {option.shape_size != null ? (
-                    <li>Shape/Size:{option.shape_size}</li>
-                  ) : null}
+                  {option.shape_size != null ? <li>Shape/Size:{option.shape_size}</li> : null}
                   {option.concentration != null ? (
                     <li>Concentration: {option.concentration}</li>
                   ) : null}

@@ -9,7 +9,7 @@ import {
   Document,
   Feat,
   MagicItem,
-  Monster,
+  Creature,
   Plane,
   Race,
   Section,
@@ -24,7 +24,10 @@ export default function App() {
     <MainLayout>
       <Row>
         <Col>
-          <Monster />
+          <Creature creatureKey="a5e-mm_aboleth" />
+        </Col>
+        <Col>
+          <Armor armorKey="srd-2024_breastplate" />
         </Col>
         <Col>
           <Class />

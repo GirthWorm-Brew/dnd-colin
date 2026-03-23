@@ -274,9 +274,7 @@
   "saving_throw_ability": "",
   "attack_roll": false,
   "damage_roll": "1d6",
-  "damage_types": [
-    "cold"
-  ],
+  "damage_types": ["cold"],
   "duration": "1 round",
   "shape_type": null,
   "shape_size": null,

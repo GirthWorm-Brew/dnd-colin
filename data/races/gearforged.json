@@ -5,15 +5,11 @@
   "asi_desc": "***Ability Score Increase.*** Two different ability scores of your choice increase by 1.",
   "asi": [
     {
-      "attributes": [
-        "Any"
-      ],
+      "attributes": ["Any"],
       "value": 1
     },
     {
-      "attributes": [
-        "Any"
-      ],
+      "attributes": ["Any"],
       "value": 1
     }
   ],
@@ -35,9 +31,7 @@
       "desc": "The original dwarven gearforged engineers valued function over form, eschewing aesthetics in favor of instilling their chassis with toughness and strength. The chassis' metal face is clearly crafted to look dwarven, but its countenance is entirely unactuated and forged of a dark metal—often brass—sometimes with a lighter-colored mane of hair and a braided beard and mustaches made of fine metal strands. The gearforged's eyes glow a dark turquoise, staring dispassionately with a seemingly blank expression. Armor and helms worn by the gearforged are often styled to appear as if they were integrated into its chassis, making it all-but-impossible to tell where the armor ends and the gearforged begins.",
       "asi": [
         {
-          "attributes": [
-            "Constitution"
-          ],
+          "attributes": ["Constitution"],
           "value": 1
         }
       ],
@@ -53,9 +47,7 @@
       "desc": "Crafted for both exceptional functionality and aesthetic beauty, a gnome chassis' skin is clearly metallic but is meticulously colored to closely match gnomish skin tones, except at the joints, where gears and darker steel pistons are visible. Gnome chassis are almost always bald, with elaborate artistic patterns painted or etched on the face and skull in lieu of hair. Their eyes are vivid and lifelike, as is the chassis' gnomish face, which has a sculpted metal nose and articulated mouth and jaw. The gnome artisans who pioneered the first gearforged chassis saw it as an opportunity to not merely build a better body but to make it a work of art.",
       "asi": [
         {
-          "attributes": [
-            "Intelligence"
-          ],
+          "attributes": ["Intelligence"],
           "value": 1
         }
       ],
@@ -71,9 +63,7 @@
       "desc": "As humans invented the first gearforged, it should be no surprise that the human chassis remains the one that is most frequently encountered. However, it would be a mistake to assume that simply because the original chassis is more commonplace that there is anything common about them. While dwarves, gnomes, and kobolds have made clever additions and changes to the base model, the human chassis remains extremely versatile and is battle-proven.",
       "asi": [
         {
-          "attributes": [
-            "Any"
-          ],
+          "attributes": ["Any"],
           "value": 1
         }
       ],
@@ -89,9 +79,7 @@
       "desc": "Kobolds are naturally curious tinkerers, constantly modifying their devices and tools. As such, kobolds, in spite of what many dwarf or gnome engineers might say, were the second race to master the nuances of gearforged creation after studying human gearforged. However, most of these early kobold gearforged no longer exist, as the more draconic forms (homages to the kobolds' draconic masters) proved too alien to the kobold soul gems to maintain stable, long-term connections with the bodies. Kobold engineers have since resolved that problem, and kobold gearforged can be found among many kobold communities, aiding its members and tinkering right alongside their scale-and-blood brethren.",
       "asi": [
         {
-          "attributes": [
-            "Dexterity"
-          ],
+          "attributes": ["Dexterity"],
           "value": 1
         }
       ],

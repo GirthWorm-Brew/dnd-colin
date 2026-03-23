@@ -119,9 +119,7 @@
   "saving_throw_ability": "dexterity",
   "attack_roll": false,
   "damage_roll": "8d6",
-  "damage_types": [
-    "lightning"
-  ],
+  "damage_types": ["lightning"],
   "duration": "instantaneous",
   "shape_type": "line",
   "shape_size": 5,

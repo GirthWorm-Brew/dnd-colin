@@ -74,9 +74,7 @@
   "saving_throw_ability": "constitution",
   "attack_roll": false,
   "damage_roll": "14d6",
-  "damage_types": [
-    "force"
-  ],
+  "damage_types": ["force"],
   "duration": "instantaneous",
   "shape_type": "sphere",
   "shape_size": 30,

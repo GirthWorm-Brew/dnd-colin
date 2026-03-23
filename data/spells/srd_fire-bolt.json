@@ -229,9 +229,7 @@
   "saving_throw_ability": "",
   "attack_roll": true,
   "damage_roll": "1d10",
-  "damage_types": [
-    "fire"
-  ],
+  "damage_types": ["fire"],
   "duration": "instantaneous",
   "shape_type": null,
   "shape_size": null,

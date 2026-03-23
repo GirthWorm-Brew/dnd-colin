@@ -1,6 +1,7 @@
 import { Container } from "react-bootstrap";
-import itemJson from "../../../data/magicitems/excalibur.json";
-import "../../../themes/V3/phb.standalone.css";
+import { magicitemsRetrieve } from "../../modules/open5e/sdk.gen";
+import { MagicitemsRetrieveResponse } from "../../modules/open5e/types.gen";
+import { useState, useEffect } from "react";
 
 // { "slug": string,
 //   "name": string,
@@ -13,12 +14,35 @@ import "../../../themes/V3/phb.standalone.css";
 //   "document__url": string
 // }
 
-const item = itemJson;
-
-export default function MagicItem() {
-  return (
-    <Container fluid className="phb page">
-      <main className=""></main>
-    </Container>
+export default function MagicItem({ id }: { id: string }) {
+  const [magicItem, setMagicItem] = useState<MagicitemsRetrieveResponse | null>(
+    null,
   );
+
+  useEffect(() => {
+    async function load() {
+      const res = await magicitemsRetrieve({
+        path: {
+          key: id,
+        },
+      });
+      console.log(res.response);
+      setMagicItem(res.data as MagicitemsRetrieveResponse);
+    }
+    load();
+  }, []);
+
+  if (!magicItem) {
+    return (
+      <div>
+        <p>...loading</p>
+      </div>
+    );
+  } else {
+    return (
+      <Container fluid className="phb page">
+        <main className=""></main>
+      </Container>
+    );
+  }
 }

@@ -5,15 +5,11 @@
   "asi_desc": "***Ability Score Increase.*** Your Constitution score increases by 2, and your Intelligence score increases by 1.",
   "asi": [
     {
-      "attributes": [
-        "Constitution"
-      ],
+      "attributes": ["Constitution"],
       "value": 2
     },
     {
-      "attributes": [
-        "Intelligence"
-      ],
+      "attributes": ["Intelligence"],
       "value": 1
     }
   ],

@@ -5,9 +5,7 @@
   "asi_desc": "***Ability Score Increase.*** Your Dexterity score increases by 2, and you can choose to increase either your Wisdom or Charisma score by 1.",
   "asi": [
     {
-      "attributes": [
-        "Dexterity"
-      ],
+      "attributes": ["Dexterity"],
       "value": 2
     }
   ],

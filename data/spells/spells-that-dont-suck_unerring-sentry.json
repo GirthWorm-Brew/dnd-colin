@@ -53,9 +53,7 @@
   "saving_throw_ability": "",
   "attack_roll": true,
   "damage_roll": "4d8",
-  "damage_types": [
-    "force"
-  ],
+  "damage_types": ["force"],
   "duration": "8 hours",
   "shape_type": null,
   "shape_size": null,

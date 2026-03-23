@@ -128,9 +128,7 @@
   "saving_throw_ability": "intelligence",
   "attack_roll": true,
   "damage_roll": "2d8",
-  "damage_types": [
-    "psychic"
-  ],
+  "damage_types": ["psychic"],
   "duration": "1 minute",
   "shape_type": null,
   "shape_size": null,

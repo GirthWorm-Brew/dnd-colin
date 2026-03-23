@@ -68,9 +68,7 @@
   "saving_throw_ability": "constitution",
   "attack_roll": true,
   "damage_roll": "5d4",
-  "damage_types": [
-    "slashing"
-  ],
+  "damage_types": ["slashing"],
   "duration": "1 hour",
   "shape_type": null,
   "shape_size": null,

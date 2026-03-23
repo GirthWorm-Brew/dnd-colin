@@ -78,9 +78,7 @@
   "saving_throw_ability": "constitution",
   "attack_roll": false,
   "damage_roll": "12d6",
-  "damage_types": [
-    "cold"
-  ],
+  "damage_types": ["cold"],
   "duration": "1 minute",
   "shape_type": "sphere",
   "shape_size": 30,

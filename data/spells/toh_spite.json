@@ -128,9 +128,7 @@
   "saving_throw_ability": "",
   "attack_roll": false,
   "damage_roll": "3d6",
-  "damage_types": [
-    "psychic"
-  ],
+  "damage_types": ["psychic"],
   "duration": "1 hour",
   "shape_type": null,
   "shape_size": null,

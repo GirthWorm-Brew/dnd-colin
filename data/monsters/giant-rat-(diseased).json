@@ -52,14 +52,7 @@
   "special_abilities": null,
   "spell_list": [],
   "page_no": 378,
-  "environments": [
-    "Sewer",
-    "Swamp",
-    "Caverns",
-    "Forest",
-    "Ruin",
-    "Settlement"
-  ],
+  "environments": ["Sewer", "Swamp", "Caverns", "Forest", "Ruin", "Settlement"],
   "img_main": null,
   "document__slug": "wotc-srd",
   "document__title": "5e Core Rules",

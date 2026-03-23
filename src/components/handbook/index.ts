@@ -1,4 +1,4 @@
-export { default as Monster } from "./Monster";
+export { default as Creature } from "./Creature";
 export { default as Armor } from "./Armor";
 export { default as Background } from "./Background";
 export { default as Class } from "./Class";

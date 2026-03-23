@@ -84,11 +84,7 @@
   "saving_throw_ability": "dexterity",
   "attack_roll": false,
   "damage_roll": "10d6",
-  "damage_types": [
-    "fire",
-    "psychic",
-    "cold"
-  ],
+  "damage_types": ["fire", "psychic", "cold"],
   "duration": "10 minute",
   "shape_type": null,
   "shape_size": null,
