@@ -41,6 +41,9 @@ export default function App() {
         <Col>
           <Class />
         </Col>
+        <Col>
+          <Weapon />
+        </Col>
       </Row>
     </MainLayout>
   );

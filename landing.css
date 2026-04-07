@@ -1,0 +1,61 @@
+/*  Before building the CSS for the landing page, dropping hex codes for color swatch -- see figma project for more details 
+
+    Dark Brown  - 211103 = dark
+    Dark Teal   - 19535F = info
+    Dark? Slate - 5E807F = primary
+    Other color - 2F4343 = secondary
+    DSat DGreen - 97A97C = success
+    DSat DRed   - B24445 = danger
+    Parchment   - F1E9D2 = light
+    */
+
+/*  I don't know why this isnt working? 
+
+:root {
+    --bs-primary: #5E807F;
+    --bs-secondary: #2F4343;
+    --bs-info: #19535F;
+    --bs-success: #97A97C;
+    --bs-danger: #B24445;
+    --bs-light: #F1E9D2;
+    --bs-dark: #211103;
+} */
+
+.btn-custom-primary {
+    background-color: #5E807F;
+    border-color: #5E807F;
+    color: white;
+}
+
+.btn-custom-primary:hover {
+    background-color: #4D6867;
+    border-color: #4D6867;
+    color: white;
+}
+
+body {
+    background-color: #F1E9D2;
+}
+
+header {
+    background-color: #211103;
+    align-items: center;
+}
+
+footer {
+    background-color: #211103;
+    align-items: center;
+    color: white;
+}
+
+.header-icon img {
+    height: 80%;
+    width: 80%;
+    border-radius: 25%;
+    padding: 15px;
+}
+
+nav {
+    background-color: #2F4343;
+    border-radius: 10px;
+}
