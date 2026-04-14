@@ -9,7 +9,7 @@ import {
 } from "react-bootstrap";
 import { creaturesList } from "../../modules/open5e/sdk.gen";
 import { PaginatedCreatureList } from "../../modules/open5e/types.gen";
-import { Link } from "react-router";
+import { Link, useNavigate } from "react-router";
 
 const sidebarItems: Array<string> = [
   "Item1, Item2, Item3, Item4, Item5, Item6, Item7, Item8",

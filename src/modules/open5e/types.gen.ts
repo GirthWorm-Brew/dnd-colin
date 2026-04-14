@@ -2229,7 +2229,7 @@ export type Weapon = {
    */
   readonly key: string;
   document: DocumentSummary;
-  readonly properties: string;
+  readonly properties: Array<WeaponPropertyAssignment>;
   damage_type: DamageTypeSummary;
   readonly ranged_attack_possible: string;
   readonly range_melee: string;

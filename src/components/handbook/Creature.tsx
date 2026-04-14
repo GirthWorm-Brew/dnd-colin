@@ -50,7 +50,7 @@ export default function CreaturePage() {
       setCreature(res.data as Creature);
     }
     load();
-  }, []);
+  }, [stub]);
 
   if (!creature) {
     return (
@@ -149,7 +149,8 @@ export default function CreaturePage() {
                     </dt>
                     <dd>{action.desc}</dd>
                     <dd>{action.legendary_action_cost}</dd>
-                    <dd>{action.usage_limits}</dd>
+                    {/* <dd>{action.usage_limits}</dd> */}
+                    {/* I commented this out because I can't find a usage_limits property anywhere in the data files */}
                   </dl>
                 ))}
               {creature.actions.some(
