@@ -48,6 +48,7 @@ export default function Sidebar() {
       query: {
         page: 1,
         document__key__in: ["srd-2014", "srd-2024"],
+        is_subclass: false,
       },
     });
     setData(result.data as AnyPaginatedList);
