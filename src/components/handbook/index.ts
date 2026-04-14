@@ -11,4 +11,4 @@ export { default as Species } from "./Species";
 export { default as Section } from "./Section";
 export { default as SpellList } from "./SpellList";
 export { default as Spell } from "./Spell";
-export { default as Weapon } from "./Weapon";
+export { default as Weapon } from "./Weapons";
