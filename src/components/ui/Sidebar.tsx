@@ -22,7 +22,7 @@ const listFunctions = {
   items: itemsList,
   armor: armorList,
   weapons: weaponsList,
-  classes: classesList
+  classes: classesList,
 };
 
 type Category = keyof typeof listFunctions;
@@ -47,6 +47,7 @@ export default function Sidebar() {
     const result = await listFunctions[category as Category]({
       query: {
         page: 1,
+        document__key__in: ["srd-2014", "srd-2024"],
       },
     });
     setData(result.data as AnyPaginatedList);
@@ -108,7 +109,7 @@ export default function Sidebar() {
             >
               <DropdownMenu>
                 <DropdownItem eventKey="armor">Armor</DropdownItem>
-                <DropdownItem>Backgrounds</DropdownItem>
+                <DropdownItem eventKey="Backgrounds">Backgrounds</DropdownItem>
                 <DropdownItem eventKey="classes">Classes</DropdownItem>
                 <DropdownItem>Conditions</DropdownItem>
                 <DropdownItem>Documents</DropdownItem>
