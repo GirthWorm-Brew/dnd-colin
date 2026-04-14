@@ -71,6 +71,7 @@ export default function ClassPage() {
           key: stub || "",
         }
       });
+      setClass(resClass.data as CharacterClass);
     }
     load();
   }, [stub]);
