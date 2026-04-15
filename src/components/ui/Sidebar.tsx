@@ -1,3 +1,4 @@
+import "../../styles/Nick.css";
 import { useEffect, useState } from "react";
 import {
   Button,

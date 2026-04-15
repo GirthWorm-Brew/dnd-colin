@@ -1,3 +1,4 @@
+import "../../styles/Nick.css";
 export default function Topbar() {
   return (
     <header className="main-header">

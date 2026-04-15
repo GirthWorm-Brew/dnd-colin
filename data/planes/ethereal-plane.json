@@ -1,9 +1,0 @@
-{
-  "slug": "ethereal-plane",
-  "name": "Ethereal Plane",
-  "desc": "The **Ethereal Plane** is a misty, fog-bound dimension that is sometimes described as a great ocean. Its shores, called the Border Ethereal, overlap the Material Plane and the Inner Planes, so that every location on those planes has a corresponding location on the Ethereal Plane. Certain creatures can see into the Border Ethereal, and the _see invisibility_ and _true seeing_ spell grant that ability. Some magical effects also extend from the Material Plane into the Border Ethereal, particularly effects that use force energy such as _forcecage_ and _wall of force_. The depths of the plane, the Deep Ethereal, are a region of swirling mists and colorful fogs.",
-  "document__slug": "wotc-srd",
-  "document__title": "5e Core Rules",
-  "document__url": "http://dnd.wizards.com/articles/features/systems-reference-document-srd",
-  "parent": "Transitive Planes"
-}
