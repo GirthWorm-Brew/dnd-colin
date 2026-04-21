@@ -1,8 +1,8 @@
-import { Container } from "react-bootstrap";
 import { featsRetrieve } from "../../modules/open5e/sdk.gen";
 import { Feat } from "../../modules/open5e/types.gen";
 import { useHandbookData } from "./useHandbookData";
 import { useParams } from "react-router";
+import HandbookPage from "./HandbookPage";
 
 export default function FeatPage() {
   let { stub } = useParams<{ stub: string }>();
@@ -28,7 +28,7 @@ export default function FeatPage() {
     );
   }
   return (
-    <Container className="phb page">
+    <HandbookPage>
       <main className="">
         <h1>Feat</h1>
         <div className="columnWrapper"></div>
@@ -57,6 +57,6 @@ export default function FeatPage() {
         <p className="">{feat.document.display_name}</p>
       </div>
       <div className="pageNumber auto"></div>
-    </Container>
+    </HandbookPage>
   );
 }

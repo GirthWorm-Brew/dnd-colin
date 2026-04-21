@@ -1,8 +1,8 @@
-import { Container } from "react-bootstrap";
 import { conditionsRetrieve } from "../../modules/open5e/sdk.gen";
 import { Condition } from "../../modules/open5e/types.gen";
 import { useHandbookData } from "./useHandbookData";
 import { useParams } from "react-router";
+import HandbookPage from "./HandbookPage";
 
 export default function ConditionPage() {
   let { stub } = useParams<{ stub: string }>();
@@ -28,7 +28,7 @@ export default function ConditionPage() {
     );
   }
   return (
-    <Container className="page tocDepthH3">
+    <HandbookPage>
       <main id="p1" data-index="0">
         <h1>condition</h1>
         <div className="columnWrapper"></div>
@@ -52,6 +52,6 @@ export default function ConditionPage() {
         <p className="">{condition.document.display_name}</p>
       </div>
       <div className="pageNumber auto"></div>
-    </Container>
+    </HandbookPage>
   );
 }

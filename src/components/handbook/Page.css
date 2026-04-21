@@ -1,6 +1,56 @@
+.handbook-page-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+}
+
 .phb.page.soft {
   height: auto;
   min-height: 500mm;
   overflow: visible;
   contain: none;
+}
+
+.phb .page .monster.frame,
+.phb.page .monster.frame {
+  padding: 6px 14px;
+}
+
+.phb .page .monster.wide,
+.phb.page .monster.wide {
+  column-width: 7.3cm;
+  -webkit-column-width: 7.3cm;
+  -moz-column-width: 7.3cm;
+  column-gap: 0.8cm;
+}
+
+.phb .classProgression {
+  margin-top: 0.5em;
+  border: 1px solid #c9c0a3;
+  border-collapse: collapse;
+}
+
+.phb .classProgression th,
+.phb .classProgression td {
+  border: 1px solid #d6cfb5;
+  padding: 0.3em 0.5em;
+}
+
+.phb .classProgression thead th {
+  border-bottom: 2px solid #58180d;
+  background-color: #e0e5c1;
+}
+
+.phb .featureGroup {
+  break-inside: avoid;
+  -webkit-column-break-inside: avoid;
+  margin-bottom: 1em;
+}
+
+.phb .featureGroup > h4 {
+  margin-bottom: 0.25em;
+}
+
+.phb .classSummary {
+  margin-bottom: 1em;
 }

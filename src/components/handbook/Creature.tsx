@@ -5,8 +5,8 @@ import {
   CreatureAction,
   SpeedAll,
 } from "../../modules/open5e/types.gen";
-import { Container } from "react-bootstrap";
 import { useParams } from "react-router";
+import HandbookPage from "./HandbookPage";
 
 function SpeedBlock({ speed }: { speed: SpeedAll }) {
   const unit = speed.unit;
@@ -60,7 +60,7 @@ export default function CreaturePage() {
   }
 
   return (
-    <Container className="phb page">
+    <HandbookPage>
       <div id="p1" data-index="0">
         <h1>creature</h1>
         <div className="columnWrapper">
@@ -225,6 +225,6 @@ export default function CreaturePage() {
         <p className="">{creature.document.display_name}</p>
       </div>
       <div className="pageNumber auto"></div>
-    </Container>
+    </HandbookPage>
   );
 }

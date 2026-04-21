@@ -1,8 +1,8 @@
-import { Container } from "react-bootstrap";
 import { useHandbookData } from "./useHandbookData";
 import { Species } from "../../modules/open5e/types.gen";
 import { speciesRetrieve } from "../../modules/open5e/sdk.gen";
 import { useParams } from "react-router";
+import HandbookPage from "./HandbookPage";
 
 export default function Race() {
   let { stub } = useParams<{ stub: string }>();
@@ -29,8 +29,8 @@ export default function Race() {
   }
 
   return (
-    <Container>
-      <main className="page tocDepthH3" id="p1" data-index="0"></main>
-    </Container>
+    <HandbookPage>
+      <main id="p1" data-index="0"></main>
+    </HandbookPage>
   );
 }

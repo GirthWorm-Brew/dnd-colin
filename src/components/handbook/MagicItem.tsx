@@ -1,8 +1,8 @@
-import { Container } from "react-bootstrap";
 import { magicitemsRetrieve } from "../../modules/open5e/sdk.gen";
 import { Item } from "../../modules/open5e/types.gen";
 import { useParams } from "react-router";
 import { useHandbookData } from "./useHandbookData";
+import HandbookPage from "./HandbookPage";
 
 // { "slug": string,
 //   "name": string,
@@ -39,7 +39,7 @@ export default function magicItem() {
     );
   }
   return (
-    <Container fluid className="phb page">
+    <HandbookPage>
       <main className="">
         <h1>Magic Item</h1>
         <div className="columnWrapper">
@@ -58,6 +58,6 @@ export default function magicItem() {
         </div>
         <div className="pageNumber auto"></div>
       </main>
-    </Container>
+    </HandbookPage>
   );
 }

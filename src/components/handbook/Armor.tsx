@@ -1,8 +1,8 @@
-import { Container } from "react-bootstrap";
 import { armorRetrieve } from "../../modules/open5e/sdk.gen";
 import { Armor } from "../../modules/open5e/types.gen";
 import { useParams } from "react-router";
 import { useHandbookData } from "./useHandbookData";
+import HandbookPage from "./HandbookPage";
 
 export default function ArmorPage() {
   let { stub } = useParams<{ stub: string }>();
@@ -29,7 +29,7 @@ export default function ArmorPage() {
   }
 
   return (
-    <Container className="phb page auto">
+    <HandbookPage modifier="auto">
       <main className="">
         <h1>Armor</h1>
         <div className="columnWrapper">
@@ -63,6 +63,6 @@ export default function ArmorPage() {
         </div>
         <div className="pageNumber auto"></div>
       </main>
-    </Container>
+    </HandbookPage>
   );
 }

@@ -1,9 +1,8 @@
-import { Container } from "react-bootstrap";
 import { documentsRetrieve } from "../../modules/open5e/sdk.gen";
 import { Document } from "../../modules/open5e/types.gen";
-import { useState, useEffect } from "react";
 import { useParams } from "react-router";
 import { useHandbookData } from "./useHandbookData";
+import HandbookPage from "./HandbookPage";
 
 export default function DocumentPage() {
   let { stub } = useParams<{ stub: string }>();
@@ -29,7 +28,7 @@ export default function DocumentPage() {
     );
   }
   return (
-    <Container className="page tocDepthH3">
+    <HandbookPage>
       <main id="p1" data-index="0">
         <h1>Document</h1>
         <h2 className="wide">
@@ -48,6 +47,6 @@ export default function DocumentPage() {
         <p className="">{document.display_name}</p>
       </div>
       <div className="pageNumber auto"></div>
-    </Container>
+    </HandbookPage>
   );
 }

@@ -1,0 +1,93 @@
+/* Font faces referenced by themes/V3/5ePHB/style.css.
+   Paths are relative to this file's location so Vite resolves them correctly. */
+
+@font-face {
+  font-family: "BookInsanityRemake";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../../../themes/V3/fonts/5e/Bookinsanity.woff2") format("woff2");
+}
+@font-face {
+  font-family: "BookInsanityRemake";
+  font-style: normal;
+  font-weight: bold;
+  src: url("../../../themes/V3/fonts/5e/Bookinsanity Bold.woff2") format("woff2");
+}
+@font-face {
+  font-family: "BookInsanityRemake";
+  font-style: italic;
+  font-weight: normal;
+  src: url("../../../themes/V3/fonts/5e/Bookinsanity Italic.woff2") format("woff2");
+}
+@font-face {
+  font-family: "BookInsanityRemake";
+  font-style: italic;
+  font-weight: bold;
+  src: url("../../../themes/V3/fonts/5e/Bookinsanity Bold Italic.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "ScalySansRemake";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../../../themes/V3/fonts/5e/Scaly Sans.woff2") format("woff2");
+}
+@font-face {
+  font-family: "ScalySansRemake";
+  font-style: normal;
+  font-weight: bold;
+  src: url("../../../themes/V3/fonts/5e/Scaly Sans Bold.woff2") format("woff2");
+}
+@font-face {
+  font-family: "ScalySansRemake";
+  font-style: italic;
+  font-weight: normal;
+  src: url("../../../themes/V3/fonts/5e/Scaly Sans Italic.woff2") format("woff2");
+}
+@font-face {
+  font-family: "ScalySansRemake";
+  font-style: italic;
+  font-weight: bold;
+  src: url("../../../themes/V3/fonts/5e/Scaly Sans Bold Italic.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "ScalySansSmallCapsRemake";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../../../themes/V3/fonts/5e/Scaly Sans Caps.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "MrEavesRemake";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../../../themes/V3/fonts/5e/Mr Eaves Small Caps.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "SolberaImitationRemake";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../../../themes/V3/fonts/5e/Solbera Imitation Tweak.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "WalterTurncoat";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../../../themes/V3/fonts/5e/WalterTurncoat-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "NodestoCapsCondensed";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../../../themes/V3/fonts/5e/Nodesto Caps Condensed.woff2") format("woff2");
+}
+@font-face {
+  font-family: "NodestoCapsCondensed";
+  font-style: normal;
+  font-weight: bold;
+  src: url("../../../themes/V3/fonts/5e/Nodesto Caps Condensed Bold.woff2") format("woff2");
+}

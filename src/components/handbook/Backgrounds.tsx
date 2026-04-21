@@ -1,8 +1,8 @@
-import { Container } from "react-bootstrap";
 import { backgroundsRetrieve } from "../../modules/open5e/sdk.gen";
 import { Background } from "../../modules/open5e/types.gen";
 import { useHandbookData } from "./useHandbookData";
 import { useParams } from "react-router";
+import HandbookPage from "./HandbookPage";
 
 export default function BackgroundPage() {
   let { stub } = useParams<{ stub: string }>();
@@ -29,7 +29,7 @@ export default function BackgroundPage() {
   }
 
   return (
-    <Container className="phb page">
+    <HandbookPage>
       <main className="">
         <h1>Background</h1>
         <div className="columnWrapper"></div>
@@ -54,7 +54,7 @@ export default function BackgroundPage() {
           </tbody>
         </table>
       </main>
-    </Container>
+    </HandbookPage>
   );
 }
 

@@ -3,6 +3,7 @@ import { Item, Weapon } from "../../modules/open5e/types.gen";
 import { useParams } from "react-router";
 import { formatCost, formatWeight } from "./itemFormatter";
 import { useHandbookData } from "./useHandbookData";
+import HandbookPage from "./HandbookPage";
 
 export default function WeaponPage() {
   let { stub } = useParams<{ stub: string }>();
@@ -69,7 +70,7 @@ export default function WeaponPage() {
   }
 
   return (
-    <div className="phb page wide" id="p3" data-index="2">
+    <HandbookPage>
       <h1>Weapon</h1>
       <div className="wide">
         <h2>{item.name}</h2>
@@ -130,7 +131,7 @@ export default function WeaponPage() {
           </div>
         </div>
       </div>
-    </div>
+    </HandbookPage>
   );
 }
 

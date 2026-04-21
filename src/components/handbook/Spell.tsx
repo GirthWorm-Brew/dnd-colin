@@ -1,8 +1,8 @@
-import { Container } from "react-bootstrap";
 import { spellsRetrieve } from "../../modules/open5e/sdk.gen";
 import { Spell } from "../../modules/open5e/types.gen";
 import { useParams } from "react-router";
 import { useHandbookData } from "./useHandbookData";
+import HandbookPage from "./HandbookPage";
 
 export default function SpellPage() {
   let { stub } = useParams();
@@ -30,7 +30,7 @@ export default function SpellPage() {
   }
 
   return (
-    <Container className="phb page auto">
+    <HandbookPage modifier="auto">
       <main className="" id="p1" data-index="0">
         <h1>Spell</h1>
         <div className="columnWrapper">
@@ -97,6 +97,6 @@ export default function SpellPage() {
         </div>
         <div className="pageNumber auto"></div>
       </main>
-    </Container>
+    </HandbookPage>
   );
 }
