@@ -22,7 +22,7 @@ export type CategoryEntry = {
   label: string;
 };
 
-const SRD = { document__key__in: ["srd-2014", "srd-2024"] };
+const SRD = { document__key__in: ["srd-2024"] };
 
 export const categoryConfig = {
   armor: { listFn: armorList, baseQuery: SRD, label: "Armor" },
