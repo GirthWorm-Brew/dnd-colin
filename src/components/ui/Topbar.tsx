@@ -1,5 +1,5 @@
 import { Link } from "react-router";
-import "../../styles/Nick.css";
+import "../../styles/Style.css";
 import { Button } from "react-bootstrap";
 
 type TopbarProps = {

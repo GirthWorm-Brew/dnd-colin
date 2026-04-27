@@ -1,4 +1,4 @@
-import "../../styles/Nick.css";
+import "../../styles/Style.css";
 import { useEffect, useState } from "react";
 import {
   DropdownButton,

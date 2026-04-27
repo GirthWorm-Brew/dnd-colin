@@ -171,7 +171,7 @@ table {
   width: 25vw;
   height: 100vh;
   align-items: center;
-  background-color: green;
+  background-color: var(--dark-teal);
 }
 
 .combatArea {

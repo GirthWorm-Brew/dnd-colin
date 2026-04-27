@@ -1,5 +1,5 @@
 import MainLayout from "./components/MainLayout";
-import "./styles/Nick.css";
+import "./styles/Style.css";
 import Router from "./routes";
 
 export default function App() {
